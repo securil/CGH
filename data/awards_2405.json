@@ -1,0 +1,83 @@
+{
+  "meeting_id": 2405,
+  "meeting_date": "2024-05-28",
+  "meeting_name": "2024년 청구회장배 골프대회",
+  "participants_count": 84,
+  "awards": {
+    "  신폐리오": {
+      "name": "김성은",
+      "generation": 47,
+      "record": "n 69, g 81"
+    },
+    "  메달리스트 남": {
+      "name": "이영찬",
+      "generation": 46,
+      "record": "76타"
+    },
+    "  메달리스트 여": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "  롱기스트 남": {
+      "name": "정동균",
+      "generation": 44,
+      "record": "270yd"
+    },
+    "  롱기스트 여": {
+      "name": "박미신",
+      "generation": 36,
+      "record": "180yd"
+    },
+    "니어리스트 남": {
+      "name": "정윤성",
+      "generation": 39,
+      "record": "2m"
+    },
+    "니어리스트": {
+      "name": "양경미",
+      "generation": 29,
+      "record": "9m"
+    },
+    "다파상": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "다보기상": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "양파상": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "특별상 남": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "특별상 여": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "행운상": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "단체상": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "null": {
+      "name": null,
+      "generation": null,
+      "record": null
+    }
+  }
+}

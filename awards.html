@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>청구회 - 수상내역</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/awards.css">
+    <!-- responsive.css를 가장 마지막에 로드하여 다른 스타일을 덮어쓰도록 함 -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/login-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="js/auth.js" defer></script>
+    <script src="js/awards.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <!-- 헤더 섹션 -->
+        <header>
+            <div class="logo">
+                <h1><a href="index.html">청구회</a></h1>
+            </div>
+            <nav>
+                <div class="hamburger-menu" aria-label="메뉴 열기">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <ul class="main-menu">
+                    <li><a href="index.html">홈</a></li>
+                    <li><a href="about.html">소개</a></li>
+                    <li><a href="schedule.html">모임 일정</a></li>
+                    <li><a href="awards.html" class="active">수상내역</a></li>
+                    <li class="login-item"><a href="mypage.html" id="mypage-link">내 페이지</a></li>
+                    <li class="login-item admin-only"><a href="admin.html" id="admin-link">관리자</a></li>
+                </ul>
+            </nav>
+            <div class="login-status">
+                <a href="#" id="login-btn">로그인</a>
+                <a href="#" id="logout-btn" style="display: none;">로그아웃</a>
+            </div>
+        </header>
+
+        <!-- 히어로 섹션 -->
+        <section class="hero-section awards-hero">
+            <div class="hero-content">
+                <h2>청구회 수상내역</h2>
+                <p>최고의 플레이, 최고의 순간</p>
+            </div>
+        </section>
+
+        <!-- 최근 3개월 수상내역 섹션 -->
+        <section class="recent-awards-section">
+            <div class="section-title">
+                <h2>최근 수상내역</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="awards-cards-container" id="recent-awards-container">
+                <!-- JS에서 동적으로 로드될 내용 -->
+                <div class="loading-spinner">
+                    <div class="spinner"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 연도별 수상내역 섹션 -->
+        <section class="yearly-awards-section">
+            <div class="section-title">
+                <h2>연도별 수상내역</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="year-selector">
+                <button class="year-btn active" data-year="2024">2024년</button>
+                <button class="year-btn" data-year="2023">2023년</button>
+                <button class="year-btn" data-year="2022">2022년</button>
+            </div>
+            
+            <!-- 2024년 월별 내비게이션 -->
+            <div class="month-navigation" id="month-nav-2024">
+                <button class="month-btn" data-month="3">3월</button>
+                <button class="month-btn" data-month="4">4월</button>
+                <button class="month-btn" data-month="5">5월</button>
+                <button class="month-btn" data-month="6">6월</button>
+                <button class="month-btn" data-month="8">8월</button>
+                <button class="month-btn" data-month="9">9월</button>
+                <button class="month-btn" data-month="10">10월</button>
+                <button class="month-btn" data-month="11">11월</button>
+            </div>
+            
+            <!-- 2023년 월별 내비게이션 (기본적으로 숨김) -->
+            <div class="month-navigation" id="month-nav-2023" style="display: none;">
+                <!-- JS에서 동적으로 로드될 내용 -->
+            </div>
+            
+            <!-- 2022년 월별 내비게이션 (기본적으로 숨김) -->
+            <div class="month-navigation" id="month-nav-2022" style="display: none;">
+                <!-- JS에서 동적으로 로드될 내용 -->
+            </div>
+            
+            <div class="yearly-awards-container" id="yearly-awards-container">
+                <!-- JS에서 동적으로 로드될 내용 -->
+                <div class="loading-spinner">
+                    <div class="spinner"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 수상 통계 섹션 -->
+        <section class="awards-stats-section">
+            <div class="section-title">
+                <h2>수상 통계</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="stats-container">
+                <div class="stats-card">
+                    <h3><i class="fas fa-trophy"></i> 베스트 스코어 TOP 3</h3>
+                    <div class="stats-content" id="best-score-stats">
+                        <!-- JS에서 동적으로 로드될 내용 -->
+                        <div class="loading-spinner">
+                            <div class="spinner"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="stats-card">
+                    <h3><i class="fas fa-chart-line"></i> 평균 베스트 스코어 TOP 3</h3>
+                    <div class="stats-content" id="avg-best-score-stats">
+                        <!-- JS에서 동적으로 로드될 내용 -->
+                        <div class="loading-spinner">
+                            <div class="spinner"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="stats-card">
+                    <h3><i class="fas fa-users"></i> 참석 순위 TOP 3</h3>
+                    <div class="stats-content" id="attendance-stats">
+                        <!-- JS에서 동적으로 로드될 내용 -->
+                        <div class="loading-spinner">
+                            <div class="spinner"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 로그인 모달 -->
+        <div id="login-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>청구회 로그인</h2>
+                <form id="login-form">
+                    <div class="form-group">
+                        <label for="username">성함</label>
+                        <input type="text" id="username" name="username" placeholder="이름을 입력하세요" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">전화번호 뒷 4자리</label>
+                        <input type="password" id="password" name="password" placeholder="전화번호 뒷 4자리" maxlength="4" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">로그인</button>
+                    </div>
+                    <p class="login-help">* 이름과 전화번호 뒷 4자리로 로그인하세요.</p>
+                </form>
+            </div>
+        </div>
+
+        <!-- 푸터 섹션 -->
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>청구회</h3>
+                    <p>함께하는 골프, 함께하는 열정</p>
+                </div>
+                <div class="footer-links">
+                    <h4>바로가기</h4>
+                    <ul>
+                        <li><a href="index.html">홈</a></li>
+                        <li><a href="about.html">소개</a></li>
+                        <li><a href="schedule.html">모임 일정</a></li>
+                        <li><a href="awards.html">수상내역</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>연락처</h4>
+                    <p><i class="fas fa-envelope"></i> email@chunggu.com</p>
+                    <p><i class="fas fa-phone"></i> 010-1234-5678</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2025</span> 청구회. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

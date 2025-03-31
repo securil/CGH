@@ -1,0 +1,9671 @@
+[
+  {
+    "member_id": 62,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2005,
+          2008,
+          2009
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106,
+          2110,
+          2111
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2206,
+          2208,
+          2210,
+          2211
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2304,
+          2306
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 19
+  },
+  {
+    "member_id": 65,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2008,
+          2009,
+          2010
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2105,
+          2106,
+          2110,
+          2111
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2205,
+          2210
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 16
+  },
+  {
+    "member_id": 66,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2009,
+          2010
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106,
+          2110,
+          2111
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2205,
+          2210,
+          2211
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2306,
+          2310
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410,
+          2411
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 21
+  },
+  {
+    "member_id": 69,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2005,
+          2008,
+          2009,
+          2010
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2105,
+          2106,
+          2110,
+          2111
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2205,
+          2210,
+          2211
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2304,
+          2306,
+          2310
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 18
+  },
+  {
+    "member_id": 76,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2010
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2205,
+          2208,
+          2210
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2304,
+          2305,
+          2306
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2405
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 14
+  },
+  {
+    "member_id": 77,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2005,
+          2006,
+          2009,
+          2010
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2205,
+          2206,
+          2208,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 8
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2306,
+          2308,
+          2310
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2404,
+          2409,
+          2410
+        ],
+        "attendance_count": 4
+      }
+    ],
+    "total_attendance": 24
+  },
+  {
+    "member_id": 89,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2008,
+          2009,
+          2010
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2110,
+          2111
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2205,
+          2206,
+          2208,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 8
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2305,
+          2306,
+          2308,
+          2310,
+          2311
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2404,
+          2405,
+          2406,
+          2408,
+          2409,
+          2410,
+          2411
+        ],
+        "attendance_count": 8
+      }
+    ],
+    "total_attendance": 34
+  },
+  {
+    "member_id": 91,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2210
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 93,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 3
+  },
+  {
+    "member_id": 98,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2008,
+          2009,
+          2010
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2110,
+          2111
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2204,
+          2205,
+          2206,
+          2208,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2305,
+          2306,
+          2310
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2405,
+          2409,
+          2410
+        ],
+        "attendance_count": 3
+      }
+    ],
+    "total_attendance": 26
+  },
+  {
+    "member_id": 99,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2005
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2110,
+          2111
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 8
+  },
+  {
+    "member_id": 101,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2005,
+          2010
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2105,
+          2106,
+          2110,
+          2111
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2205,
+          2206,
+          2208,
+          2209,
+          2210
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2305,
+          2310
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2405,
+          2410
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 19
+  },
+  {
+    "member_id": 102,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2006,
+          2008,
+          2010
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2105,
+          2106
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2204,
+          2206,
+          2208,
+          2210
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 12
+  },
+  {
+    "member_id": 103,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2005
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2210,
+          2211
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 4
+  },
+  {
+    "member_id": 104,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2005,
+          2010
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2205,
+          2208,
+          2210
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 7
+  },
+  {
+    "member_id": 108,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 109,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2005,
+          2010
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2205,
+          2206,
+          2208,
+          2209,
+          2210
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 16
+  },
+  {
+    "member_id": 110,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2008,
+          2010
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2110,
+          2111
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2205,
+          2206,
+          2208,
+          2210,
+          2211
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2305
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2405
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 19
+  },
+  {
+    "member_id": 114,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2008,
+          2009,
+          2010
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2110,
+          2111
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2205,
+          2206,
+          2208,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 8
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2305,
+          2308,
+          2310,
+          2311
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2405,
+          2409,
+          2410
+        ],
+        "attendance_count": 4
+      }
+    ],
+    "total_attendance": 29
+  },
+  {
+    "member_id": 116,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2010
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2110,
+          2111
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2204,
+          2210,
+          2211
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 12
+  },
+  {
+    "member_id": 117,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2010
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2210,
+          2211
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 5
+  },
+  {
+    "member_id": 118,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2008,
+          2009,
+          2010
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2105,
+          2106,
+          2110,
+          2111
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2205,
+          2206,
+          2208,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 8
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2304,
+          2306,
+          2310,
+          2311
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2405
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 24
+  },
+  {
+    "member_id": 123,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2008,
+          2009,
+          2010
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2105,
+          2106,
+          2110,
+          2111
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2205,
+          2208,
+          2210
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2305,
+          2310
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2405,
+          2406,
+          2410
+        ],
+        "attendance_count": 3
+      }
+    ],
+    "total_attendance": 20
+  },
+  {
+    "member_id": 124,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2008,
+          2009,
+          2010
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106,
+          2110,
+          2111
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2205,
+          2206,
+          2208,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 8
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2305,
+          2306,
+          2310,
+          2311
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2404,
+          2405,
+          2406,
+          2408,
+          2409,
+          2410,
+          2411
+        ],
+        "attendance_count": 8
+      }
+    ],
+    "total_attendance": 35
+  },
+  {
+    "member_id": 127,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2008,
+          2009,
+          2010
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2110,
+          2111
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2205,
+          2206,
+          2208,
+          2210,
+          2211
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2305,
+          2306,
+          2308,
+          2310,
+          2311
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2404,
+          2405,
+          2406,
+          2408,
+          2409,
+          2410,
+          2411
+        ],
+        "attendance_count": 8
+      }
+    ],
+    "total_attendance": 33
+  },
+  {
+    "member_id": 141,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 195,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2005,
+          2008,
+          2010
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2205,
+          2206,
+          2208,
+          2210
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 13
+  },
+  {
+    "member_id": 196,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2008,
+          2009,
+          2010
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106,
+          2110,
+          2111
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2205,
+          2206,
+          2208,
+          2209,
+          2210
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2304,
+          2305,
+          2306,
+          2308,
+          2311
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2404,
+          2405,
+          2406,
+          2408,
+          2409,
+          2410,
+          2411
+        ],
+        "attendance_count": 8
+      }
+    ],
+    "total_attendance": 31
+  },
+  {
+    "member_id": 197,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2006,
+          2008,
+          2009,
+          2010
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106,
+          2110,
+          2111
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2205,
+          2206,
+          2208,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 8
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2304,
+          2305,
+          2306,
+          2308,
+          2310,
+          2311
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2405,
+          2406,
+          2408,
+          2410
+        ],
+        "attendance_count": 5
+      }
+    ],
+    "total_attendance": 31
+  },
+  {
+    "member_id": 199,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2006,
+          2008,
+          2009,
+          2010
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2105,
+          2106,
+          2110,
+          2111
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2206,
+          2208,
+          2209,
+          2211
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2305,
+          2306,
+          2310,
+          2311
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2408,
+          2409,
+          2410
+        ],
+        "attendance_count": 3
+      }
+    ],
+    "total_attendance": 24
+  },
+  {
+    "member_id": 204,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 206,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2008,
+          2010
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2205,
+          2206,
+          2208,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2305,
+          2306,
+          2311
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2405,
+          2408
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 22
+  },
+  {
+    "member_id": 208,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2008,
+          2009,
+          2010
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106,
+          2110,
+          2111
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2205,
+          2209,
+          2210
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2304,
+          2305,
+          2306,
+          2308,
+          2310,
+          2311
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2405,
+          2406,
+          2408,
+          2409,
+          2410,
+          2411
+        ],
+        "attendance_count": 7
+      }
+    ],
+    "total_attendance": 30
+  },
+  {
+    "member_id": 212,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2008,
+          2009,
+          2010
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106,
+          2110,
+          2111
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2205
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 15
+  },
+  {
+    "member_id": 213,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2008,
+          2009,
+          2010
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106,
+          2110,
+          2111
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2205,
+          2206,
+          2208,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2305,
+          2306,
+          2308,
+          2310,
+          2311
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2404,
+          2405,
+          2408,
+          2409,
+          2410
+        ],
+        "attendance_count": 6
+      }
+    ],
+    "total_attendance": 33
+  },
+  {
+    "member_id": 214,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2005
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 216,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2009,
+          2010
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2110,
+          2111
+        ],
+        "attendance_count": 4
+      }
+    ],
+    "total_attendance": 10
+  },
+  {
+    "member_id": 218,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2006,
+          2008,
+          2009,
+          2010
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2206
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2304,
+          2308,
+          2310
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2405,
+          2406
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 14
+  },
+  {
+    "member_id": 229,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2008,
+          2010
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2110,
+          2111
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2205,
+          2210
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 14
+  },
+  {
+    "member_id": 232,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2005,
+          2010
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2110,
+          2111
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 8
+  },
+  {
+    "member_id": 233,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2205
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 4
+  },
+  {
+    "member_id": 234,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2009,
+          2010
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106,
+          2110,
+          2111
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 14
+  },
+  {
+    "member_id": 244,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2005,
+          2006,
+          2008,
+          2010
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2204,
+          2205,
+          2208,
+          2210,
+          2211
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2305,
+          2306,
+          2310,
+          2311
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2404,
+          2405,
+          2406,
+          2408,
+          2409,
+          2410,
+          2411
+        ],
+        "attendance_count": 8
+      }
+    ],
+    "total_attendance": 28
+  },
+  {
+    "member_id": 255,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 257,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2008,
+          2009,
+          2010
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2205,
+          2206,
+          2208,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 8
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2304,
+          2305,
+          2306,
+          2308,
+          2310
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2404,
+          2405,
+          2406,
+          2408,
+          2409,
+          2410
+        ],
+        "attendance_count": 7
+      }
+    ],
+    "total_attendance": 29
+  },
+  {
+    "member_id": 260,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2008,
+          2009,
+          2010
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106,
+          2110,
+          2111
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2204,
+          2205,
+          2206,
+          2208,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2305,
+          2308,
+          2310,
+          2311
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2404,
+          2405,
+          2406,
+          2408,
+          2409,
+          2410
+        ],
+        "attendance_count": 7
+      }
+    ],
+    "total_attendance": 33
+  },
+  {
+    "member_id": 262,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2005,
+          2006,
+          2008,
+          2009,
+          2010
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2110,
+          2111
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2205,
+          2206,
+          2208,
+          2209,
+          2210
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2305,
+          2306,
+          2308,
+          2310
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2404,
+          2405,
+          2406,
+          2409,
+          2410
+        ],
+        "attendance_count": 5
+      }
+    ],
+    "total_attendance": 26
+  },
+  {
+    "member_id": 263,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2005,
+          2009,
+          2010
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2205,
+          2206,
+          2209,
+          2210
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 12
+  },
+  {
+    "member_id": 274,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2005,
+          2009,
+          2010
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2205,
+          2208,
+          2209,
+          2210
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2306,
+          2310
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2404,
+          2405,
+          2409,
+          2410
+        ],
+        "attendance_count": 4
+      }
+    ],
+    "total_attendance": 19
+  },
+  {
+    "member_id": 287,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2005,
+          2010
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2205,
+          2206
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2306,
+          2308,
+          2310
+        ],
+        "attendance_count": 3
+      }
+    ],
+    "total_attendance": 9
+  },
+  {
+    "member_id": 289,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2010
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2204,
+          2205,
+          2206,
+          2209,
+          2210
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2305,
+          2306,
+          2308,
+          2310,
+          2311
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2404,
+          2405,
+          2406,
+          2408,
+          2409,
+          2410,
+          2411
+        ],
+        "attendance_count": 8
+      }
+    ],
+    "total_attendance": 27
+  },
+  {
+    "member_id": 291,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2005,
+          2008,
+          2010
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106,
+          2110,
+          2111
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2204,
+          2205,
+          2208
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 14
+  },
+  {
+    "member_id": 316,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2005,
+          2006,
+          2010
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2110,
+          2111
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2205,
+          2206,
+          2208,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2305,
+          2306,
+          2310,
+          2311
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2406,
+          2410
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 24
+  },
+  {
+    "member_id": 324,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2004,
+          2005,
+          2009,
+          2010
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2205,
+          2206,
+          2208,
+          2210
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2304,
+          2306,
+          2310
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2404,
+          2405
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 14
+  },
+  {
+    "member_id": 325,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 327,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2003,
+          2009,
+          2010
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2205,
+          2206,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 9
+  },
+  {
+    "member_id": 38,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2004,
+          2005,
+          2006,
+          2010
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2110,
+          2111
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2205,
+          2210
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 12
+  },
+  {
+    "member_id": 59,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2004,
+          2005
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 60,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2004,
+          2005,
+          2009
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2105,
+          2106
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 6
+  },
+  {
+    "member_id": 61,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2004,
+          2005,
+          2008,
+          2009
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2105,
+          2106,
+          2110,
+          2111
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2210
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410,
+          2411
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 13
+  },
+  {
+    "member_id": 63,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2004,
+          2005
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2105,
+          2106
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2210
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2304
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 6
+  },
+  {
+    "member_id": 64,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2004,
+          2009
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106,
+          2110,
+          2111
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2204,
+          2205,
+          2208
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 12
+  },
+  {
+    "member_id": 78,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2004,
+          2005,
+          2006,
+          2010
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2110,
+          2111
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2204,
+          2205,
+          2206,
+          2208,
+          2209,
+          2210
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2304,
+          2305,
+          2306,
+          2308,
+          2310
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2404,
+          2405,
+          2406,
+          2408,
+          2409,
+          2410
+        ],
+        "attendance_count": 7
+      }
+    ],
+    "total_attendance": 26
+  },
+  {
+    "member_id": 86,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2004,
+          2005,
+          2006,
+          2008,
+          2010
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2110,
+          2111
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2204,
+          2208,
+          2209,
+          2210
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2304,
+          2306,
+          2310
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2405,
+          2406,
+          2408,
+          2410
+        ],
+        "attendance_count": 5
+      }
+    ],
+    "total_attendance": 19
+  },
+  {
+    "member_id": 122,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2004,
+          2006,
+          2010
+        ],
+        "attendance_count": 3
+      }
+    ],
+    "total_attendance": 3
+  },
+  {
+    "member_id": 125,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2004,
+          2006,
+          2010
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410,
+          2411
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 5
+  },
+  {
+    "member_id": 128,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2004,
+          2006,
+          2010
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2306
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2404,
+          2405,
+          2406,
+          2408,
+          2410,
+          2411
+        ],
+        "attendance_count": 7
+      }
+    ],
+    "total_attendance": 12
+  },
+  {
+    "member_id": 130,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2004,
+          2006,
+          2010
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106,
+          2110,
+          2111
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2205,
+          2206,
+          2208,
+          2209,
+          2210
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2306,
+          2310
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2404,
+          2405
+        ],
+        "attendance_count": 3
+      }
+    ],
+    "total_attendance": 22
+  },
+  {
+    "member_id": 136,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2004,
+          2006,
+          2008,
+          2009,
+          2010
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2105,
+          2106
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2205,
+          2206,
+          2208,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 8
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2305,
+          2306,
+          2308,
+          2310,
+          2311
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2404,
+          2405,
+          2406,
+          2408,
+          2409,
+          2410,
+          2411
+        ],
+        "attendance_count": 8
+      }
+    ],
+    "total_attendance": 30
+  },
+  {
+    "member_id": 138,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2004,
+          2005,
+          2009
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2205,
+          2208
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2305,
+          2310
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2406,
+          2408,
+          2410,
+          2411
+        ],
+        "attendance_count": 5
+      }
+    ],
+    "total_attendance": 14
+  },
+  {
+    "member_id": 191,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2004,
+          2005,
+          2006,
+          2008,
+          2010
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2110,
+          2111
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2210
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 8
+  },
+  {
+    "member_id": 193,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2004,
+          2005,
+          2006,
+          2010
+        ],
+        "attendance_count": 4
+      }
+    ],
+    "total_attendance": 4
+  },
+  {
+    "member_id": 217,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2004,
+          2005,
+          2006,
+          2008,
+          2009,
+          2010
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106,
+          2110,
+          2111
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2205,
+          2206,
+          2208,
+          2209,
+          2210
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2305,
+          2306,
+          2308,
+          2310,
+          2311
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2405,
+          2406,
+          2408,
+          2409
+        ],
+        "attendance_count": 5
+      }
+    ],
+    "total_attendance": 31
+  },
+  {
+    "member_id": 219,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2004,
+          2010
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2205,
+          2206,
+          2208,
+          2210
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2304,
+          2305,
+          2306,
+          2308,
+          2310
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2404,
+          2405,
+          2406
+        ],
+        "attendance_count": 3
+      }
+    ],
+    "total_attendance": 16
+  },
+  {
+    "member_id": 228,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2004,
+          2005,
+          2006,
+          2010
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106,
+          2110,
+          2111
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2204,
+          2205,
+          2206,
+          2208,
+          2209,
+          2210
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2304,
+          2305,
+          2306,
+          2308,
+          2310,
+          2311
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2404,
+          2405,
+          2406,
+          2410,
+          2411
+        ],
+        "attendance_count": 6
+      }
+    ],
+    "total_attendance": 28
+  },
+  {
+    "member_id": 253,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2004,
+          2005,
+          2006,
+          2008,
+          2009
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2110,
+          2111
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2204,
+          2205,
+          2206,
+          2209,
+          2210
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2304,
+          2305,
+          2306,
+          2308,
+          2310,
+          2311
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2404,
+          2405,
+          2406,
+          2408,
+          2409
+        ],
+        "attendance_count": 6
+      }
+    ],
+    "total_attendance": 26
+  },
+  {
+    "member_id": 254,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2004,
+          2005,
+          2008
+        ],
+        "attendance_count": 3
+      }
+    ],
+    "total_attendance": 3
+  },
+  {
+    "member_id": 293,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2004,
+          2005,
+          2006,
+          2008,
+          2009,
+          2010
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2204,
+          2205,
+          2206,
+          2208,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2305,
+          2308,
+          2310,
+          2311
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2404,
+          2405,
+          2406,
+          2408,
+          2409,
+          2410,
+          2411
+        ],
+        "attendance_count": 8
+      }
+    ],
+    "total_attendance": 31
+  },
+  {
+    "member_id": 306,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2004,
+          2010
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 307,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2004,
+          2010
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2205,
+          2210
+        ],
+        "attendance_count": 3
+      }
+    ],
+    "total_attendance": 7
+  },
+  {
+    "member_id": 311,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2004,
+          2010
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 4
+  },
+  {
+    "member_id": 318,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2004,
+          2010
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 5
+  },
+  {
+    "member_id": 322,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2004
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2205,
+          2209,
+          2210
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2404,
+          2405
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 7
+  },
+  {
+    "member_id": 41,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2005,
+          2006,
+          2009,
+          2010
+        ],
+        "attendance_count": 4
+      }
+    ],
+    "total_attendance": 4
+  },
+  {
+    "member_id": 42,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2005
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 44,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2005
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 55,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2005,
+          2008,
+          2009,
+          2010
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2105,
+          2106,
+          2110,
+          2111
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2205,
+          2206,
+          2210
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 12
+  },
+  {
+    "member_id": 67,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2005,
+          2009,
+          2010
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2205
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2306
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410,
+          2411
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 12
+  },
+  {
+    "member_id": 68,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2005,
+          2009,
+          2010
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2105,
+          2106
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2210
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 7
+  },
+  {
+    "member_id": 71,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2005,
+          2009,
+          2010
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2204,
+          2210
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 5
+  },
+  {
+    "member_id": 115,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2005,
+          2010
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 171,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2005,
+          2010
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2204,
+          2206,
+          2210
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2409,
+          2410
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 8
+  },
+  {
+    "member_id": 172,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2005,
+          2010
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 3
+  },
+  {
+    "member_id": 185,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2005,
+          2006,
+          2010
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2204,
+          2205,
+          2206
+        ],
+        "attendance_count": 3
+      }
+    ],
+    "total_attendance": 6
+  },
+  {
+    "member_id": 189,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2005
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 192,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2005,
+          2006
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 205,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2005,
+          2006,
+          2008
+        ],
+        "attendance_count": 3
+      }
+    ],
+    "total_attendance": 3
+  },
+  {
+    "member_id": 209,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2005,
+          2006,
+          2010
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2206,
+          2208,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2305,
+          2306,
+          2308,
+          2310
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2405,
+          2406,
+          2410
+        ],
+        "attendance_count": 3
+      }
+    ],
+    "total_attendance": 21
+  },
+  {
+    "member_id": 215,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2005
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2110,
+          2111
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2210
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 4
+  },
+  {
+    "member_id": 220,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2005,
+          2010
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2209,
+          2210
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 4
+  },
+  {
+    "member_id": 238,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2005,
+          2008,
+          2010
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2105,
+          2106,
+          2110,
+          2111
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2205
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 10
+  },
+  {
+    "member_id": 240,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2005,
+          2008,
+          2010
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2110,
+          2111
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2210
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2405,
+          2408,
+          2410
+        ],
+        "attendance_count": 4
+      }
+    ],
+    "total_attendance": 11
+  },
+  {
+    "member_id": 258,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2005,
+          2009
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 264,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2005,
+          2006,
+          2010
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2306
+        ],
+        "attendance_count": 3
+      }
+    ],
+    "total_attendance": 6
+  },
+  {
+    "member_id": 267,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2005,
+          2010
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2205,
+          2206,
+          2209,
+          2210
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 9
+  },
+  {
+    "member_id": 273,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2005
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 275,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2005,
+          2009,
+          2010
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 8
+  },
+  {
+    "member_id": 278,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2005,
+          2010
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2205,
+          2206,
+          2208,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 8
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2304,
+          2305,
+          2306
+        ],
+        "attendance_count": 3
+      }
+    ],
+    "total_attendance": 17
+  },
+  {
+    "member_id": 281,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2005,
+          2009,
+          2010
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2210
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2305,
+          2310
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 10
+  },
+  {
+    "member_id": 284,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2005,
+          2010
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 323,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2005
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2206
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 45,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2006,
+          2009
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2210
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2304
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 6
+  },
+  {
+    "member_id": 47,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2006
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2211
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2305,
+          2306
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 4
+  },
+  {
+    "member_id": 132,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2006,
+          2010
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2306
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 4
+  },
+  {
+    "member_id": 134,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2006,
+          2010
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2210
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2410,
+          2411
+        ],
+        "attendance_count": 3
+      }
+    ],
+    "total_attendance": 9
+  },
+  {
+    "member_id": 137,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2006
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2210
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2308,
+          2310
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 4
+  },
+  {
+    "member_id": 169,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2006
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2210
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 3
+  },
+  {
+    "member_id": 173,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2006,
+          2010
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2204,
+          2206,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2304,
+          2305,
+          2306,
+          2308,
+          2310,
+          2311
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2404,
+          2405,
+          2409,
+          2410
+        ],
+        "attendance_count": 4
+      }
+    ],
+    "total_attendance": 17
+  },
+  {
+    "member_id": 175,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2006,
+          2010
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2204,
+          2206,
+          2208,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2306,
+          2308,
+          2310,
+          2311
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2404,
+          2405,
+          2409,
+          2410
+        ],
+        "attendance_count": 4
+      }
+    ],
+    "total_attendance": 16
+  },
+  {
+    "member_id": 186,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2006,
+          2010
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2208,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2304,
+          2308,
+          2310,
+          2311
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2404,
+          2405,
+          2409,
+          2410
+        ],
+        "attendance_count": 4
+      }
+    ],
+    "total_attendance": 15
+  },
+  {
+    "member_id": 187,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2006,
+          2010
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2204,
+          2209
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2308,
+          2310
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2405,
+          2410
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 8
+  },
+  {
+    "member_id": 194,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2006,
+          2008,
+          2010
+        ],
+        "attendance_count": 3
+      }
+    ],
+    "total_attendance": 3
+  },
+  {
+    "member_id": 198,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2006
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 201,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2006,
+          2008
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2110,
+          2111
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 4
+  },
+  {
+    "member_id": 203,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2006
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 210,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2006
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 211,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2006
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 236,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2006,
+          2010
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106,
+          2110,
+          2111
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2210
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 12
+  },
+  {
+    "member_id": 319,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2006,
+          2008,
+          2009,
+          2010
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2110,
+          2111
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2204,
+          2205,
+          2206,
+          2208,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2305,
+          2306,
+          2308,
+          2310,
+          2311
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2404,
+          2405,
+          2410,
+          2411
+        ],
+        "attendance_count": 5
+      }
+    ],
+    "total_attendance": 27
+  },
+  {
+    "member_id": 72,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2008
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 73,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2008,
+          2009,
+          2010
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2110,
+          2111
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2205,
+          2206,
+          2208,
+          2210
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 12
+  },
+  {
+    "member_id": 90,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2008
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 3
+  },
+  {
+    "member_id": 112,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2008,
+          2009,
+          2010
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2205,
+          2206,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2311
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2409
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 16
+  },
+  {
+    "member_id": 113,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2008,
+          2009,
+          2010
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2205,
+          2206,
+          2209,
+          2211
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2306,
+          2311
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 11
+  },
+  {
+    "member_id": 261,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2008,
+          2009,
+          2010
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106,
+          2110,
+          2111
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2205,
+          2206,
+          2208,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 8
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2305,
+          2306,
+          2308,
+          2310
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2405,
+          2410
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 25
+  },
+  {
+    "member_id": 268,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2008,
+          2010
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2204,
+          2205,
+          2208,
+          2209,
+          2210
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2305,
+          2310
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 13
+  },
+  {
+    "member_id": 294,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2008,
+          2010
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2105,
+          2106
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2204
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 5
+  },
+  {
+    "member_id": 340,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2008
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 150,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2009,
+          2010
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2110,
+          2111
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2205,
+          2206,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2310
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2404,
+          2405,
+          2410
+        ],
+        "attendance_count": 3
+      }
+    ],
+    "total_attendance": 16
+  },
+  {
+    "member_id": 328,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2009,
+          2010
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2205,
+          2206,
+          2208,
+          2210,
+          2211
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2310,
+          2311
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2404,
+          2405,
+          2406,
+          2408,
+          2409,
+          2410
+        ],
+        "attendance_count": 7
+      }
+    ],
+    "total_attendance": 21
+  },
+  {
+    "member_id": 337,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2009,
+          2010
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 338,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2009,
+          2010
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 2,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2205,
+          2210
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 3
+  },
+  {
+    "member_id": 3,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2205
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 4,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 5,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 6,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 7,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2405
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 10,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106,
+          2110,
+          2111
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2205,
+          2206,
+          2208,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 8
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2306
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2404,
+          2405,
+          2406,
+          2408,
+          2409
+        ],
+        "attendance_count": 6
+      }
+    ],
+    "total_attendance": 24
+  },
+  {
+    "member_id": 11,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2204,
+          2208,
+          2209
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 7
+  },
+  {
+    "member_id": 12,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 13,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 14,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 15,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2204,
+          2205,
+          2206,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2404,
+          2405,
+          2406,
+          2408,
+          2409,
+          2410
+        ],
+        "attendance_count": 7
+      }
+    ],
+    "total_attendance": 19
+  },
+  {
+    "member_id": 16,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2208
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2406
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 3
+  },
+  {
+    "member_id": 17,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 19,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2110,
+          2111
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 3
+  },
+  {
+    "member_id": 20,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2211
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 4
+  },
+  {
+    "member_id": 21,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2205,
+          2206,
+          2208,
+          2210,
+          2211
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2404,
+          2405,
+          2408,
+          2409,
+          2410
+        ],
+        "attendance_count": 6
+      }
+    ],
+    "total_attendance": 18
+  },
+  {
+    "member_id": 22,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 40,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 49,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2404,
+          2405,
+          2406,
+          2410
+        ],
+        "attendance_count": 4
+      }
+    ],
+    "total_attendance": 7
+  },
+  {
+    "member_id": 51,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2210,
+          2211
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2305,
+          2306,
+          2310
+        ],
+        "attendance_count": 5
+      }
+    ],
+    "total_attendance": 8
+  },
+  {
+    "member_id": 52,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2210,
+          2211
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2305,
+          2306,
+          2310
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2405,
+          2406,
+          2408,
+          2409,
+          2410,
+          2411
+        ],
+        "attendance_count": 7
+      }
+    ],
+    "total_attendance": 15
+  },
+  {
+    "member_id": 54,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2205,
+          2211
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2305
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2405,
+          2411
+        ],
+        "attendance_count": 3
+      }
+    ],
+    "total_attendance": 10
+  },
+  {
+    "member_id": 81,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2105,
+          2106,
+          2110,
+          2111
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2205,
+          2208,
+          2210
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2305,
+          2310
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2405,
+          2410
+        ],
+        "attendance_count": 3
+      }
+    ],
+    "total_attendance": 15
+  },
+  {
+    "member_id": 83,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 4
+  },
+  {
+    "member_id": 85,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106,
+          2110,
+          2111
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2205,
+          2206,
+          2208
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2305
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 14
+  },
+  {
+    "member_id": 105,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 133,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 142,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2210
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 3
+  },
+  {
+    "member_id": 143,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2205,
+          2206,
+          2208,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2305,
+          2306,
+          2310
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2404,
+          2405,
+          2406,
+          2409,
+          2410,
+          2411
+        ],
+        "attendance_count": 7
+      }
+    ],
+    "total_attendance": 18
+  },
+  {
+    "member_id": 144,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2205,
+          2206,
+          2209,
+          2211
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2310
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2405,
+          2410
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 11
+  },
+  {
+    "member_id": 146,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2210
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 3
+  },
+  {
+    "member_id": 147,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2205,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2405,
+          2410
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 8
+  },
+  {
+    "member_id": 152,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 170,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 174,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 3
+  },
+  {
+    "member_id": 179,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 3
+  },
+  {
+    "member_id": 180,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 226,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 3
+  },
+  {
+    "member_id": 248,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106
+        ],
+        "attendance_count": 4
+      }
+    ],
+    "total_attendance": 5
+  },
+  {
+    "member_id": 259,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2205,
+          2209,
+          2210
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2305,
+          2310
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2405,
+          2410
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 12
+  },
+  {
+    "member_id": 269,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2205,
+          2206,
+          2208,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 8
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2305,
+          2306,
+          2308,
+          2310,
+          2311
+        ],
+        "attendance_count": 7
+      }
+    ],
+    "total_attendance": 18
+  },
+  {
+    "member_id": 279,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2306
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 8
+  },
+  {
+    "member_id": 290,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 295,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2204,
+          2205,
+          2206
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 9
+  },
+  {
+    "member_id": 296,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2205,
+          2210
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 6
+  },
+  {
+    "member_id": 298,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 312,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2110,
+          2111
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2204,
+          2205,
+          2206,
+          2208,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2305,
+          2306,
+          2308,
+          2310
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2405,
+          2408,
+          2409,
+          2410
+        ],
+        "attendance_count": 5
+      }
+    ],
+    "total_attendance": 23
+  },
+  {
+    "member_id": 314,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 320,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 321,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2205,
+          2208
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2308,
+          2310
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2405,
+          2409,
+          2410
+        ],
+        "attendance_count": 3
+      }
+    ],
+    "total_attendance": 11
+  },
+  {
+    "member_id": 339,
+    "attendance": [
+      {
+        "year": 2020,
+        "meetings": [
+          2010
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106,
+          2110,
+          2111
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2206,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2305,
+          2310,
+          2311
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2404,
+          2406,
+          2410,
+          2411
+        ],
+        "attendance_count": 4
+      }
+    ],
+    "total_attendance": 22
+  },
+  {
+    "member_id": 23,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2204
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 3
+  },
+  {
+    "member_id": 24,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2205,
+          2206,
+          2210,
+          2211
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2305,
+          2306,
+          2310,
+          2311
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2409
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 17
+  },
+  {
+    "member_id": 25,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2205,
+          2206,
+          2211
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2305,
+          2310,
+          2311
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2409
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 12
+  },
+  {
+    "member_id": 29,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2204,
+          2205,
+          2206,
+          2210,
+          2211
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2305,
+          2306
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 11
+  },
+  {
+    "member_id": 30,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2210
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2306,
+          2311
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2409
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 6
+  },
+  {
+    "member_id": 31,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2211
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2409
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 7
+  },
+  {
+    "member_id": 33,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2210
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 4
+  },
+  {
+    "member_id": 36,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2204,
+          2205,
+          2210
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2409
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 9
+  },
+  {
+    "member_id": 53,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2205,
+          2210
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2306
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2405,
+          2406,
+          2409
+        ],
+        "attendance_count": 3
+      }
+    ],
+    "total_attendance": 9
+  },
+  {
+    "member_id": 95,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 129,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106,
+          2110,
+          2111
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2205,
+          2210,
+          2211
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2305,
+          2306,
+          2308,
+          2310,
+          2311
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2404,
+          2405,
+          2406,
+          2408,
+          2409,
+          2410,
+          2411
+        ],
+        "attendance_count": 7
+      }
+    ],
+    "total_attendance": 23
+  },
+  {
+    "member_id": 131,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2205,
+          2206,
+          2208,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2304,
+          2305,
+          2308,
+          2310
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 14
+  },
+  {
+    "member_id": 200,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 3
+  },
+  {
+    "member_id": 222,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 225,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 235,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2205,
+          2208,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2306,
+          2308,
+          2310,
+          2311
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2406,
+          2410
+        ],
+        "attendance_count": 3
+      }
+    ],
+    "total_attendance": 18
+  },
+  {
+    "member_id": 237,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106,
+          2110,
+          2111
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2205,
+          2206,
+          2208,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 8
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2304,
+          2305,
+          2306,
+          2308,
+          2310,
+          2311
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2404,
+          2405,
+          2406,
+          2408,
+          2410,
+          2411
+        ],
+        "attendance_count": 7
+      }
+    ],
+    "total_attendance": 27
+  },
+  {
+    "member_id": 242,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106
+        ],
+        "attendance_count": 4
+      }
+    ],
+    "total_attendance": 4
+  },
+  {
+    "member_id": 252,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 272,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2210
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2305,
+          2310
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 7
+  },
+  {
+    "member_id": 280,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104,
+          2105,
+          2106
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2205,
+          2206,
+          2208,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 8
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2304,
+          2305,
+          2306
+        ],
+        "attendance_count": 3
+      }
+    ],
+    "total_attendance": 15
+  },
+  {
+    "member_id": 286,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2205,
+          2209
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 5
+  },
+  {
+    "member_id": 288,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 308,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2205
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2308,
+          2310
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2405,
+          2409,
+          2410
+        ],
+        "attendance_count": 3
+      }
+    ],
+    "total_attendance": 8
+  },
+  {
+    "member_id": 309,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2103,
+          2104
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2204,
+          2205,
+          2209,
+          2210
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2306,
+          2310
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 9
+  },
+  {
+    "member_id": 18,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2105,
+          2106,
+          2110,
+          2111
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2205,
+          2206,
+          2209,
+          2210
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2305,
+          2306
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2404,
+          2406,
+          2409
+        ],
+        "attendance_count": 4
+      }
+    ],
+    "total_attendance": 17
+  },
+  {
+    "member_id": 43,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2105,
+          2106
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2206
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2305,
+          2311
+        ],
+        "attendance_count": 3
+      }
+    ],
+    "total_attendance": 6
+  },
+  {
+    "member_id": 70,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2105,
+          2106
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 84,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2105,
+          2106
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 230,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2105,
+          2106
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2311
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 3
+  },
+  {
+    "member_id": 245,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2105,
+          2106
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2210
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 3
+  },
+  {
+    "member_id": 246,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2105,
+          2106
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 249,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2105,
+          2106
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 250,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2105,
+          2106
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 251,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2105,
+          2106
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 256,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2105,
+          2106
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2205,
+          2206,
+          2208,
+          2209,
+          2210
+        ],
+        "attendance_count": 7
+      }
+    ],
+    "total_attendance": 9
+  },
+  {
+    "member_id": 87,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2110,
+          2111
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 3
+  },
+  {
+    "member_id": 100,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2110,
+          2111
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2205,
+          2210
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 5
+  },
+  {
+    "member_id": 111,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2110,
+          2111
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2205,
+          2210
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 4
+  },
+  {
+    "member_id": 270,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2110,
+          2111
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2204,
+          2205,
+          2206,
+          2208,
+          2209,
+          2210
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2306,
+          2310
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2404,
+          2405,
+          2406,
+          2410
+        ],
+        "attendance_count": 4
+      }
+    ],
+    "total_attendance": 16
+  },
+  {
+    "member_id": 310,
+    "attendance": [
+      {
+        "year": 2021,
+        "meetings": [
+          2110,
+          2111
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2022,
+        "meetings": [
+          2205,
+          2209,
+          2210
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2310,
+          2311
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2405
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 9
+  },
+  {
+    "member_id": 119,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2203,
+          2204,
+          2206,
+          2208,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 7
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2306,
+          2310,
+          2311
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2404,
+          2405,
+          2406,
+          2410
+        ],
+        "attendance_count": 4
+      }
+    ],
+    "total_attendance": 14
+  },
+  {
+    "member_id": 50,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2204,
+          2205,
+          2210
+        ],
+        "attendance_count": 3
+      }
+    ],
+    "total_attendance": 3
+  },
+  {
+    "member_id": 57,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2204,
+          2205,
+          2206,
+          2210,
+          2211
+        ],
+        "attendance_count": 5
+      }
+    ],
+    "total_attendance": 5
+  },
+  {
+    "member_id": 88,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2204,
+          2205,
+          2206,
+          2208,
+          2209
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2305,
+          2308
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2406,
+          2408,
+          2410
+        ],
+        "attendance_count": 3
+      }
+    ],
+    "total_attendance": 10
+  },
+  {
+    "member_id": 183,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2204,
+          2210
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 3
+  },
+  {
+    "member_id": 292,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2204,
+          2205,
+          2206,
+          2209
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 6
+  },
+  {
+    "member_id": 97,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2205
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 188,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2205,
+          2206
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 227,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2205,
+          2209,
+          2210
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 4
+  },
+  {
+    "member_id": 326,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2205,
+          2206,
+          2208,
+          2209,
+          2210
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2404,
+          2405
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 8
+  },
+  {
+    "member_id": 126,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2206
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 184,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2206
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2311
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 223,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2206
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2311
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2410
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 4
+  },
+  {
+    "member_id": 166,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2208,
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2305,
+          2308,
+          2310,
+          2311
+        ],
+        "attendance_count": 6
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2405,
+          2409,
+          2410
+        ],
+        "attendance_count": 4
+      }
+    ],
+    "total_attendance": 14
+  },
+  {
+    "member_id": 178,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2208,
+          2209
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2304,
+          2310
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 4
+  },
+  {
+    "member_id": 159,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2209,
+          2211
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2305,
+          2311
+        ],
+        "attendance_count": 4
+      }
+    ],
+    "total_attendance": 6
+  },
+  {
+    "member_id": 160,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2304,
+          2310
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 5
+  },
+  {
+    "member_id": 164,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2209,
+          2210,
+          2211
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2305,
+          2308,
+          2310,
+          2311
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2404,
+          2410
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 10
+  },
+  {
+    "member_id": 297,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2209,
+          2210
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2306,
+          2310
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 5
+  },
+  {
+    "member_id": 315,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2209
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 26,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2210
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 34,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2210
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 56,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2210
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 75,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2210
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 3
+  },
+  {
+    "member_id": 96,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2210
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 149,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2210
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2310
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2406,
+          2409,
+          2410
+        ],
+        "attendance_count": 3
+      }
+    ],
+    "total_attendance": 6
+  },
+  {
+    "member_id": 168,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2210,
+          2211
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310,
+          2311
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 4
+  },
+  {
+    "member_id": 177,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2210
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 3
+  },
+  {
+    "member_id": 182,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2210
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 3
+  },
+  {
+    "member_id": 190,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2210
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2306,
+          2310
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 4
+  },
+  {
+    "member_id": 154,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2211
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 155,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2211
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 158,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2211
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2305,
+          2308,
+          2310
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2404
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 7
+  },
+  {
+    "member_id": 161,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2211
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 162,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2211
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 317,
+    "attendance": [
+      {
+        "year": 2022,
+        "meetings": [
+          2211
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2305,
+          2306,
+          2310
+        ],
+        "attendance_count": 5
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2405,
+          2408,
+          2409,
+          2410,
+          2411
+        ],
+        "attendance_count": 5
+      }
+    ],
+    "total_attendance": 11
+  },
+  {
+    "member_id": 48,
+    "attendance": [
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2304,
+          2305,
+          2310
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2404,
+          2405,
+          2406,
+          2408,
+          2409,
+          2410,
+          2411
+        ],
+        "attendance_count": 8
+      }
+    ],
+    "total_attendance": 12
+  },
+  {
+    "member_id": 82,
+    "attendance": [
+      {
+        "year": 2023,
+        "meetings": [
+          2303
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 139,
+    "attendance": [
+      {
+        "year": 2023,
+        "meetings": [
+          2303,
+          2305,
+          2310
+        ],
+        "attendance_count": 3
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2409,
+          2410
+        ],
+        "attendance_count": 3
+      }
+    ],
+    "total_attendance": 6
+  },
+  {
+    "member_id": 332,
+    "attendance": [
+      {
+        "year": 2023,
+        "meetings": [
+          2303
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 8,
+    "attendance": [
+      {
+        "year": 2023,
+        "meetings": [
+          2304,
+          2305
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 32,
+    "attendance": [
+      {
+        "year": 2023,
+        "meetings": [
+          2304
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 80,
+    "attendance": [
+      {
+        "year": 2023,
+        "meetings": [
+          2304,
+          2310
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2408,
+          2410
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 4
+  },
+  {
+    "member_id": 165,
+    "attendance": [
+      {
+        "year": 2023,
+        "meetings": [
+          2304
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 9,
+    "attendance": [
+      {
+        "year": 2023,
+        "meetings": [
+          2305,
+          2306
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 151,
+    "attendance": [
+      {
+        "year": 2023,
+        "meetings": [
+          2305
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2405,
+          2409,
+          2410
+        ],
+        "attendance_count": 3
+      }
+    ],
+    "total_attendance": 4
+  },
+  {
+    "member_id": 153,
+    "attendance": [
+      {
+        "year": 2023,
+        "meetings": [
+          2305,
+          2306
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 28,
+    "attendance": [
+      {
+        "year": 2023,
+        "meetings": [
+          2306,
+          2310
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2409
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 3
+  },
+  {
+    "member_id": 107,
+    "attendance": [
+      {
+        "year": 2023,
+        "meetings": [
+          2306,
+          2310
+        ],
+        "attendance_count": 2
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2405
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 3
+  },
+  {
+    "member_id": 301,
+    "attendance": [
+      {
+        "year": 2023,
+        "meetings": [
+          2306,
+          2308,
+          2310,
+          2311
+        ],
+        "attendance_count": 4
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2404,
+          2405,
+          2406,
+          2408,
+          2409,
+          2410,
+          2411
+        ],
+        "attendance_count": 8
+      }
+    ],
+    "total_attendance": 12
+  },
+  {
+    "member_id": 167,
+    "attendance": [
+      {
+        "year": 2023,
+        "meetings": [
+          2308
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2405,
+          2410
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 3
+  },
+  {
+    "member_id": 207,
+    "attendance": [
+      {
+        "year": 2023,
+        "meetings": [
+          2308
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2405
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 313,
+    "attendance": [
+      {
+        "year": 2023,
+        "meetings": [
+          2308
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2408
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 27,
+    "attendance": [
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 35,
+    "attendance": [
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 79,
+    "attendance": [
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 135,
+    "attendance": [
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      },
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 181,
+    "attendance": [
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 330,
+    "attendance": [
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 335,
+    "attendance": [
+      {
+        "year": 2023,
+        "meetings": [
+          2310
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 46,
+    "attendance": [
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2404,
+          2405,
+          2409
+        ],
+        "attendance_count": 4
+      }
+    ],
+    "total_attendance": 4
+  },
+  {
+    "member_id": 282,
+    "attendance": [
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2405,
+          2406,
+          2408,
+          2409,
+          2410
+        ],
+        "attendance_count": 6
+      }
+    ],
+    "total_attendance": 6
+  },
+  {
+    "member_id": 299,
+    "attendance": [
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2404,
+          2405,
+          2406,
+          2408,
+          2410,
+          2411
+        ],
+        "attendance_count": 7
+      }
+    ],
+    "total_attendance": 7
+  },
+  {
+    "member_id": 305,
+    "attendance": [
+      {
+        "year": 2024,
+        "meetings": [
+          2403,
+          2404,
+          2405,
+          2409,
+          2410,
+          2411
+        ],
+        "attendance_count": 6
+      }
+    ],
+    "total_attendance": 6
+  },
+  {
+    "member_id": 157,
+    "attendance": [
+      {
+        "year": 2024,
+        "meetings": [
+          2404,
+          2405,
+          2410
+        ],
+        "attendance_count": 3
+      }
+    ],
+    "total_attendance": 3
+  },
+  {
+    "member_id": 243,
+    "attendance": [
+      {
+        "year": 2024,
+        "meetings": [
+          2404,
+          2405,
+          2409,
+          2410
+        ],
+        "attendance_count": 4
+      }
+    ],
+    "total_attendance": 4
+  },
+  {
+    "member_id": 163,
+    "attendance": [
+      {
+        "year": 2024,
+        "meetings": [
+          2405,
+          2410
+        ],
+        "attendance_count": 2
+      }
+    ],
+    "total_attendance": 2
+  },
+  {
+    "member_id": 333,
+    "attendance": [
+      {
+        "year": 2024,
+        "meetings": [
+          2405,
+          2406,
+          2410
+        ],
+        "attendance_count": 3
+      }
+    ],
+    "total_attendance": 3
+  },
+  {
+    "member_id": 334,
+    "attendance": [
+      {
+        "year": 2024,
+        "meetings": [
+          2405,
+          2406,
+          2409,
+          2410
+        ],
+        "attendance_count": 4
+      }
+    ],
+    "total_attendance": 4
+  },
+  {
+    "member_id": 336,
+    "attendance": [
+      {
+        "year": 2024,
+        "meetings": [
+          2405,
+          2406,
+          2410
+        ],
+        "attendance_count": 3
+      }
+    ],
+    "total_attendance": 3
+  },
+  {
+    "member_id": 202,
+    "attendance": [
+      {
+        "year": 2024,
+        "meetings": [
+          2406
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 39,
+    "attendance": [
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 74,
+    "attendance": [
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  },
+  {
+    "member_id": 231,
+    "attendance": [
+      {
+        "year": 2024,
+        "meetings": [
+          2410
+        ],
+        "attendance_count": 1
+      }
+    ],
+    "total_attendance": 1
+  }
+]

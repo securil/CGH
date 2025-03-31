@@ -1,0 +1,83 @@
+{
+  "meeting_id": 2411,
+  "meeting_date": "2024-11-26",
+  "meeting_name": "2024년 납회식",
+  "participants_count": 29,
+  "awards": {
+    "  신폐리오": {
+      "name": "안희태",
+      "generation": 25,
+      "record": "69.8타"
+    },
+    "  메달리스트 남": {
+      "name": "김재원",
+      "generation": 31,
+      "record": "74타"
+    },
+    "  메달리스트 여": {
+      "name": "안경옥",
+      "generation": 30,
+      "record": null
+    },
+    "  롱기스트 남": {
+      "name": "김민석",
+      "generation": 46,
+      "record": "273yd"
+    },
+    "  롱기스트 여": {
+      "name": "정혜영",
+      "generation": 47,
+      "record": "185yd"
+    },
+    "니어리스트 남": {
+      "name": "정동균",
+      "generation": 44,
+      "record": "2.4m"
+    },
+    "니어리스트": {
+      "name": "노희숙",
+      "generation": 26,
+      "record": "3.1m"
+    },
+    "다파상": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "다보기상": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "양파상": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "특별상 남": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "특별상 여": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "행운상": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "단체상": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "null": {
+      "name": null,
+      "generation": null,
+      "record": null
+    }
+  }
+}

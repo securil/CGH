@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>청구회 - 2025년 모임일정</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/schedule-page.css">
+    <link rel="stylesheet" href="css/schedule-card.css">
+    <link rel="stylesheet" href="css/login-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="js/auth.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/schedule.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <!-- 헤더 섹션 -->
+        <header>
+            <div class="logo">
+                <h1><a href="index.html">청구회</a></h1>
+            </div>
+            <nav>
+                <ul class="main-menu">
+                    <li><a href="index.html">홈</a></li>
+                    <li><a href="about.html">소개</a></li>
+                    <li><a href="schedule.html" class="active">모임 일정</a></li>
+                    <li><a href="awards.html">수상내역</a></li>
+                    <li class="login-item"><a href="mypage.html" id="mypage-link">내 페이지</a></li>
+                    <li class="login-item admin-only"><a href="admin.html" id="admin-link">관리자</a></li>
+                </ul>
+                <div class="hamburger-menu">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </nav>
+            <div class="login-status">
+                <a href="#" id="login-btn">로그인</a>
+                <a href="#" id="logout-btn" style="display: none;">로그아웃</a>
+            </div>
+        </header>
+
+        <!-- 메인 배너 섹션 -->
+        <section class="page-banner" style="background-image: linear-gradient(rgba(10, 95, 56, 0.7), rgba(26, 117, 187, 0.7)), url('assets/img/schedule-banner.jpg');">
+            <div class="banner-content">
+                <h2>2025년 모임일정</h2>
+                <p>청구회 골프모임의 2025년 일정을 확인하세요</p>
+            </div>
+        </section>
+
+        <!-- 일정 내용 섹션 -->
+        <section class="schedule-content">
+            <!-- 카드 뷰 -->
+            <div class="schedule-view card-view active" id="cardView">
+                <div class="cards-container" id="scheduleCards">
+                    <!-- 스크립트로 동적 생성 -->
+                    <div class="loading-spinner">
+                        <div class="spinner"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 모임 상세 정보 모달 -->
+        <div class="modal" id="eventModal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2 id="modalTitle">모임 상세 정보</h2>
+                <div class="event-details">
+                    <div class="detail-item">
+                        <span class="label">날짜 및 시간:</span>
+                        <span id="modalDate">-</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="label">이벤트 번호:</span>
+                        <span id="modalEventNo">-</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="label">상태:</span>
+                        <span id="modalStatus">-</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="label">장소:</span>
+                        <span id="modalLocation">-</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="label">코스:</span>
+                        <span id="modalCourse">-</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="label">설명:</span>
+                        <span id="modalDescription">-</span>
+                    </div>
+                    <div class="detail-item special-note" id="specialEventContainer">
+                        <span class="label">특별 이벤트 안내:</span>
+                        <span id="modalSpecialEvent">-</span>
+                    </div>
+                    <div class="detail-item" id="resultLinkContainer">
+                        <a href="#" id="modalResultLink" class="btn btn-primary" target="_blank">
+                            결과 보기
+                        </a>
+                    </div>
+                    <div class="map-container" id="mapContainer">
+                        <h3>골프장 위치</h3>
+                        <div class="map-placeholder">
+                            <p>지도가 준비 중입니다.</p>
+                            <button id="modalMapLink" class="btn btn-outline">
+                                <i class="fas fa-map-marked-alt"></i> 지도 보기
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 로그인 모달 -->
+        <div id="login-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>청구회 로그인</h2>
+                <form id="login-form">
+                    <div class="form-group">
+                        <label for="username">성함</label>
+                        <input type="text" id="username" name="username" placeholder="이름을 입력하세요" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">전화번호 뒷 4자리</label>
+                        <input type="password" id="password" name="password" placeholder="전화번호 뒷 4자리" maxlength="4" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">로그인</button>
+                    </div>
+                    <p class="login-help">* 이름과 전화번호 뒷 4자리로 로그인하세요.</p>
+                </form>
+            </div>
+        </div>
+
+        <!-- 푸터 섹션 -->
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>청구회</h3>
+                    <p>함께하는 골프, 함께하는 열정</p>
+                </div>
+                <div class="footer-links">
+                    <h4>바로가기</h4>
+                    <ul>
+                        <li><a href="index.html">홈</a></li>
+                        <li><a href="about.html">소개</a></li>
+                        <li><a href="schedule.html">모임 일정</a></li>
+                        <li><a href="awards.html">수상내역</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>연락처</h4>
+                    <p><i class="fas fa-envelope"></i> email@chunggu.com</p>
+                    <p><i class="fas fa-phone"></i> 010-1234-5678</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2025</span> 청구회. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // 햄버거 메뉴 토글 기능
+        document.querySelector('.hamburger-menu').addEventListener('click', function() {
+            document.querySelector('.main-menu').classList.toggle('active');
+        });
+        
+        // 현재 연도 자동 업데이트
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

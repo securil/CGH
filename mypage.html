@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내 페이지 - 청구회 골프모임</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/login-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="js/auth.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/mypage.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <!-- 헤더 섹션 -->
+        <header>
+            <div class="logo">
+                <h1><a href="index.html">청구회</a></h1>
+            </div>
+            <nav>
+                <ul class="main-menu">
+                    <li><a href="index.html">홈</a></li>
+                    <li><a href="about.html" class="active">소개</a></li>
+                    <li><a href="schedule.html">모임 일정</a></li>
+                    <li><a href="awards.html">수상내역</a></li>
+                    <li class="login-item"><a href="mypage.html" id="mypage-link">내 페이지</a></li>
+                    <li class="login-item admin-only"><a href="admin.html" id="admin-link">관리자</a></li>
+                </ul>
+                <div class="hamburger-menu">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </nav>
+            <div class="login-status">
+                <a href="#" id="login-btn">로그인</a>
+                <a href="#" id="logout-btn" style="display: none;">로그아웃</a>
+            </div>
+        </header>
+
+        <!-- 메인 콘텐츠 -->
+        <main class="mypage-content">
+            <!-- 내 정보 섹션 -->
+            <section class="profile-section">
+                <div class="section-title">
+                    <h2>내 정보</h2>
+                </div>
+                <div class="profile-content">
+                    <div class="profile-header">
+                        <div class="profile-avatar">
+                            <div class="avatar-placeholder" id="profile-avatar-placeholder">
+                                <!-- JS로 이니셜 채워짐 -->
+                            </div>
+                        </div>
+                        <div class="profile-basic-info">
+                            <h3 id="profile-name"><!-- JS로 채워짐 --></h3>
+                            <div class="profile-info-item">
+                                <i class="fas fa-envelope"></i>
+                                <span id="profile-email"><!-- JS로 채워짐 --></span>
+                            </div>
+                            <div class="profile-info-item">
+                                <i class="fas fa-golf-ball"></i>
+                                <span>핸디캡: <span id="profile-handicap"><!-- JS로 채워짐 --></span></span>
+                            </div>
+                            <div class="profile-info-item">
+                                <i class="fas fa-calendar-check"></i>
+                                <span>가입일: <span id="profile-join-date"><!-- JS로 채워짐 --></span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile-stats">
+                        <div class="stat-card">
+                            <div class="stat-value" id="stat-events">0</div>
+                            <div class="stat-label">참여 모임</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value" id="stat-awards">0</div>
+                            <div class="stat-label">수상 내역</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-value" id="stat-avg-score">-</div>
+                            <div class="stat-label">평균 스코어</div>
+                        </div>
+                    </div>
+                    <div class="profile-actions">
+                        <button class="btn btn-sm" id="edit-profile-btn">프로필 수정</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 탭 네비게이션 -->
+            <div class="tab-navigation">
+                <div class="tab-button active" data-tab="schedule">나의 일정</div>
+                <div class="tab-button" data-tab="scores">나의 스코어</div>
+                <div class="tab-button" data-tab="awards">나의 수상 내역</div>
+            </div>
+
+            <!-- 탭 콘텐츠 -->
+            <div class="tab-content-container">
+                <!-- 나의 일정 탭 -->
+                <div class="tab-content active" id="schedule-tab">
+                    <div class="schedule-status">
+                        <div class="status-card">
+                            <h3>다가오는 모임</h3>
+                            <div class="status-content" id="upcoming-events">
+                                <!-- JS로 채워짐 -->
+                                <div class="loading-spinner">
+                                    <div class="spinner"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="status-card">
+                            <h3>참여 신청</h3>
+                            <div class="status-content" id="pending-events">
+                                <!-- JS로 채워짐 -->
+                                <div class="loading-spinner">
+                                    <div class="spinner"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="event-history">
+                        <h3>참여 내역</h3>
+                        <div class="table-responsive">
+                            <table class="history-table">
+                                <thead>
+                                    <tr>
+                                        <th>날짜</th>
+                                        <th>모임명</th>
+                                        <th>장소</th>
+                                        <th>결과</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="event-history-list">
+                                    <!-- JS로 채워짐 -->
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="no-data" id="no-events" style="display: none;">
+                            <p>참여한 모임이 없습니다.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 나의 스코어 탭 -->
+                <div class="tab-content" id="scores-tab">
+                    <div class="score-chart-container">
+                        <h3>스코어 변화 추이</h3>
+                        <div class="score-chart" id="score-chart">
+                            <!-- JS로 차트 생성 -->
+                            <div class="loading-spinner">
+                                <div class="spinner"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="score-history">
+                        <h3>모든 스코어</h3>
+                        <div class="table-responsive">
+                            <table class="history-table">
+                                <thead>
+                                    <tr>
+                                        <th>날짜</th>
+                                        <th>모임명</th>
+                                        <th>장소</th>
+                                        <th>스코어</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="score-history-list">
+                                    <!-- JS로 채워짐 -->
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="no-data" id="no-scores" style="display: none;">
+                            <p>등록된 스코어가 없습니다.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 나의 수상 내역 탭 -->
+                <div class="tab-content" id="awards-tab">
+                    <div class="awards-summary">
+                        <h3>수상 현황</h3>
+                        <div class="awards-badges" id="awards-badges">
+                            <!-- JS로 채워짐 -->
+                            <div class="loading-spinner">
+                                <div class="spinner"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="awards-history">
+                        <h3>수상 내역</h3>
+                        <div class="awards-cards" id="user-awards">
+                            <!-- JS로 채워짐 -->
+                        </div>
+                        <div class="no-data" id="no-awards" style="display: none;">
+                            <p>수상 내역이 없습니다.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- 프로필 수정 모달 -->
+        <div id="edit-profile-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>프로필 수정</h2>
+                <form id="edit-profile-form">
+                    <div class="form-group">
+                        <label for="edit-name">이름</label>
+                        <input type="text" id="edit-name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="edit-email">이메일</label>
+                        <input type="email" id="edit-email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="edit-handicap">핸디캡</label>
+                        <input type="number" id="edit-handicap" name="handicap" min="0" max="36" step="0.1" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">저장</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- 로그인 모달 -->
+<div id="login-modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>청구회 로그인</h2>
+        <form id="login-form">
+            <div class="form-group">
+                <label for="username">성함</label>
+                <input type="text" id="username" name="username" placeholder="이름을 입력하세요" required>
+            </div>
+            <div class="form-group">
+                <label for="password">전화번호 뒷 4자리</label>
+                <input type="password" id="password" name="password" placeholder="전화번호 뒷 4자리" maxlength="4" required>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">로그인</button>
+            </div>
+            <p class="login-help">* 이름과 전화번호 뒷 4자리로 로그인하세요.</p>
+        </form>
+    </div>
+</div>
+
+        <!-- 푸터 섹션 -->
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>청구회</h3>
+                    <p>함께하는 골프, 함께하는 열정</p>
+                </div>
+                <div class="footer-links">
+                    <h4>바로가기</h4>
+                    <ul>
+                        <li><a href="index.html">홈</a></li>
+                        <li><a href="about.html">소개</a></li>
+                        <li><a href="schedule.html">모임 일정</a></li>
+                        <li><a href="awards.html">수상내역</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>연락처</h4>
+                    <p><i class="fas fa-envelope"></i> email@chunggu.com</p>
+                    <p><i class="fas fa-phone"></i> 010-1234-5678</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 청구회. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

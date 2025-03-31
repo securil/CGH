@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 10 스코어 및 참석 순위 테스트 (성별 필터)</title>
+
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* 기본 폰트 설정 (선택 사항) */
+        body {
+            font-family: 'Inter', sans-serif; /* Tailwind 기본 폰트 */
+        }
+        /* 로딩 및 메시지 표시 스타일 */
+        .message {
+            text-align: center;
+            padding: 2rem;
+            color: #6b7280; /* gray-500 */
+        }
+        /* 라디오 버튼 그룹 스타일 */
+        .filter-group label {
+            margin-right: 0.5rem;
+            cursor: pointer;
+        }
+        .filter-group input[type="radio"] {
+            margin-right: 0.25rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 p-8">
+
+    
+    <div class="max-w-6xl mx-auto bg-white p-6 rounded-lg shadow-md"> 
+        <h1 class="text-2xl font-bold mb-6 text-center text-teal-600">통계 테스트</h1>
+
+        
+        <div class="mb-6 flex justify-center items-center space-x-4"> 
+            
+            <div>
+                <label for="year-select" class="mr-2 self-center font-medium">연도 선택:</label>
+                <select id="year-select" class="border rounded px-3 py-1">
+                    <option value="2025">2025년</option>
+                    <option value="2024">2024년</option>
+                    <option value="2023">2023년</option>
+                    <option value="2022">2022년</option>
+                    <option value="2021">2021년</option>
+                    <option value="2020">2020년</option>
+                </select>
+            </div>
+            
+            
+            <div class="filter-group flex items-center">
+                <span class="mr-2 font-medium">성별:</span>
+                <label>
+                    
+                    <input type="radio" name="gender-filter" value="all" checked> 전체
+                </label>
+                <label>
+                    
+                    <input type="radio" name="gender-filter" value="남성"> 남 
+                </label>
+                <label>
+                    
+                    <input type="radio" name="gender-filter" value="여성"> 녀 
+                </label>
+            </div>
+        </div>
+
+        
+        <div class="grid md:grid-cols-3 gap-6"> 
+            
+            <div class="border p-4 rounded-lg bg-gray-50">
+                <h2 class="text-lg font-semibold mb-3 text-center text-pink-600">베스트 스코어 TOP 10</h2>
+                
+                <div id="best-score-list">
+                    <p class="message">데이터를 불러오는 중...</p>
+                </div>
+            </div>
+
+            
+            <div class="border p-4 rounded-lg bg-gray-50">
+                <h2 class="text-lg font-semibold mb-3 text-center text-blue-600">평균 스코어 TOP 10</h2>
+                
+                <div id="avg-score-list">
+                    <p class="message">데이터를 불러오는 중...</p>
+                </div>
+            </div>
+
+            
+            <div class="border p-4 rounded-lg bg-gray-50">
+                <h2 class="text-lg font-semibold mb-3 text-center text-green-600">참석 순위 TOP 10</h2>
+                
+                <div id="attendance-rank-list">
+                    <p class="message">데이터를 불러오는 중...</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        // --- DOM 요소 참조 ---
+        const yearSelect = document.getElementById('year-select');
+        const genderRadios = document.querySelectorAll('input[name="gender-filter"]'); // 성별 라디오 버튼 그룹
+        const bestScoreListDiv = document.getElementById('best-score-list');
+        const avgScoreListDiv = document.getElementById('avg-score-list');
+        const attendanceRankListDiv = document.getElementById('attendance-rank-list');
+
+        // --- 데이터 파일 경로 설정 ---
+        const SCORES_FILE = './scores.json';
+        // members.json에 'id', 'name', 'generation', 'gender' 필드가 있다고 가정 (gender 값은 "남성" 또는 "여성")
+        const MEMBERS_FILE = './members.json';
+        const MEETINGS_FILE = './meetings.json';
+        const ATTENDANCE_FILE = './attendance_detail.json';
+
+        // --- 데이터 캐싱용 변수 ---
+        // 회원 정보 Value에 gender 저장
+        let memberMap = new Map(); // Key: memberId, Value: { name: string, generation: number | string, gender: string }
+        let meetingMap = new Map(); // Key: meetingId, Value: dateString
+
+        /**
+         * 비동기 함수: 필요한 모든 JSON 데이터를 로드하고,
+         * 선택된 연도와 성별에 따라 통계를 계산하여 화면에 표시합니다.
+         */
+        async function loadAndProcessData() {
+            const selectedYear = yearSelect.value;
+            // 선택된 성별 값 가져오기 (HTML의 value와 일치: 'all', '남성', '여성')
+            const selectedGender = document.querySelector('input[name="gender-filter"]:checked').value;
+
+            displayMessage(bestScoreListDiv, '데이터를 불러오는 중...');
+            displayMessage(avgScoreListDiv, '데이터를 불러오는 중...');
+            displayMessage(attendanceRankListDiv, '데이터를 불러오는 중...');
+
+            try {
+                // Promise.all을 사용하여 모든 데이터 파일을 병렬로 fetch 요청
+                const [scoresResponse, membersResponse, meetingsResponse, attendanceResponse] = await Promise.all([
+                    fetch(SCORES_FILE),
+                    fetch(MEMBERS_FILE),
+                    fetch(MEETINGS_FILE),
+                    fetch(ATTENDANCE_FILE)
+                ]);
+
+                // 각 fetch 요청의 응답 상태 확인
+                if (!scoresResponse.ok || !membersResponse.ok || !meetingsResponse.ok || !attendanceResponse.ok) {
+                     const failedFiles = [
+                         !scoresResponse.ok ? SCORES_FILE : null,
+                         !membersResponse.ok ? MEMBERS_FILE : null,
+                         !meetingsResponse.ok ? MEETINGS_FILE : null,
+                         !attendanceResponse.ok ? ATTENDANCE_FILE : null
+                     ].filter(Boolean).join(', ');
+                     throw new Error(`데이터 파일 로드 실패: ${failedFiles}`);
+                }
+
+                // 각 응답(Response) 객체로부터 JSON 데이터 파싱
+                const allScores = await scoresResponse.json();
+                const members = await membersResponse.json();
+                const meetings = await meetingsResponse.json();
+                const attendanceData = await attendanceResponse.json();
+
+                // --- 데이터 전처리: Map 객체 생성 ---
+                // 회원 Map에 이름, generation, gender 저장
+                // members.json에 id, name, generation, gender 필드가 있다고 가정
+                memberMap = new Map(members.map(member => [
+                    member.id,
+                    { name: member.name, generation: member.generation, gender: member.gender } // gender 추가
+                ]));
+                meetingMap = new Map(meetings.map(meeting => [meeting.id, meeting.date]));
+
+                // --- 스코어 통계 계산 및 표시 ---
+                // 1. 선택된 연도에 해당하는 스코어 필터링
+                const yearScores = allScores.filter(score => {
+                    const meetingDate = meetingMap.get(score.meeting_id);
+                    return meetingDate && meetingDate.startsWith(selectedYear);
+                });
+
+                // 2. 스코어 통계 계산 함수 호출 (선택된 성별 전달)
+                const scoreStats = calculateScoreStats(yearScores, selectedGender); // selectedGender 전달
+
+                // 3. 결과 표시
+                if (scoreStats.bestScores.length === 0) {
+                    displayMessage(bestScoreListDiv, ` ${selectedYear}년 ${selectedGender === 'all' ? '' : selectedGender + ' '}스코어 데이터가 없습니다.`);
+                    displayMessage(avgScoreListDiv, ` ${selectedYear}년 ${selectedGender === 'all' ? '' : selectedGender + ' '}스코어 데이터가 없습니다.`);
+                } else {
+                    displayStats(scoreStats.bestScores, bestScoreListDiv, 'bestScore', '타');
+                    displayStats(scoreStats.avgScores, avgScoreListDiv, 'avgScore', '타');
+                }
+
+                // --- 참석 순위 계산 및 표시 ---
+                // 1. 참석 순위 계산 함수 호출 (선택된 성별 전달)
+                const attendanceStats = calculateAttendanceStats(attendanceData, selectedYear, selectedGender, memberMap); // selectedGender 전달
+
+                // 2. 결과 표시
+                if (attendanceStats.length === 0) {
+                     displayMessage(attendanceRankListDiv, ` ${selectedYear}년 ${selectedGender === 'all' ? '' : selectedGender + ' '}참석 데이터가 없습니다.`);
+                } else {
+                    displayStats(attendanceStats, attendanceRankListDiv, 'count', '회');
+                }
+
+            } catch (error) {
+                console.error('데이터 처리 중 오류 발생:', error);
+                const errorMessage = `오류 발생: ${error.message}`;
+                displayMessage(bestScoreListDiv, errorMessage);
+                displayMessage(avgScoreListDiv, errorMessage);
+                displayMessage(attendanceRankListDiv, errorMessage);
+            }
+        }
+
+        /**
+         * 스코어 통계 계산 함수
+         * @param {Array} scores - 특정 연도의 스코어 데이터 배열
+         * @param {string} selectedGender - 선택된 성별 ('all', '남성', '여성')
+         * @returns {Object} - { bestScores: Array, avgScores: Array } 형태의 Top 10 결과 객체
+         */
+        function calculateScoreStats(scores, selectedGender) {
+            const memberStats = {};
+
+            scores.forEach(score => {
+                const memberId = score.member_id;
+                const scoreValue = parseInt(score.gross_score, 10);
+
+                if (isNaN(scoreValue) || memberId === undefined) return;
+
+                // 회원 정보 가져오기 (성별 포함)
+                const memberInfo = memberMap.get(memberId) || { name: `Unknown (${memberId})`, generation: '??', gender: '??' };
+
+                // 성별 필터링: '전체'가 아니고, 멤버 성별이 선택된 성별과 다르면 건너뜀
+                // 비교 대상: memberInfo.gender ("남성" 또는 "여성") 와 selectedGender ("남성" 또는 "여성")
+                if (selectedGender !== 'all' && memberInfo.gender !== selectedGender) {
+                    return;
+                }
+
+                // --- 이하 기존 로직 동일 ---
+                if (!memberStats[memberId]) {
+                    memberStats[memberId] = {
+                        id: memberId,
+                        name: memberInfo.name,
+                        generation: memberInfo.generation,
+                        gender: memberInfo.gender,
+                        scores: [],
+                        bestScore: scoreValue,
+                        totalScore: 0,
+                        count: 0
+                    };
+                }
+
+                memberStats[memberId].scores.push(scoreValue);
+                memberStats[memberId].totalScore += scoreValue;
+                memberStats[memberId].count++;
+                if (scoreValue < memberStats[memberId].bestScore) {
+                    memberStats[memberId].bestScore = scoreValue;
+                }
+            });
+
+            const statsArray = Object.values(memberStats).map(stat => {
+                stat.avgScore = stat.count > 0 ? Math.floor(stat.totalScore / stat.count) : 0;
+                return stat;
+            });
+
+            const bestScoresTop10 = [...statsArray]
+                .sort((a, b) => a.bestScore - b.bestScore)
+                .slice(0, 10);
+
+            const avgScoresTop10 = [...statsArray]
+                .sort((a, b) => a.avgScore - b.avgScore)
+                .slice(0, 10);
+
+            return { bestScores: bestScoresTop10, avgScores: avgScoresTop10 };
+        }
+
+        /**
+         * 참석 순위 계산 함수
+         * @param {Array} attendanceData - 전체 출석 상세 데이터 배열
+         * @param {string} selectedYear - 사용자가 선택한 연도 (문자열)
+         * @param {string} selectedGender - 선택된 성별 ('all', '남성', '여성')
+         * @param {Map} memberMap - 회원 ID와 {name, generation, gender} 매핑 정보
+         * @returns {Array} - 참석 순위 Top 10 배열
+         */
+        function calculateAttendanceStats(attendanceData, selectedYear, selectedGender, memberMap) {
+            const attendanceList = [];
+            const yearInt = parseInt(selectedYear, 10);
+
+            attendanceData.forEach(memberAttendance => {
+                const memberId = memberAttendance.member_id;
+                let attendanceCount = 0;
+
+                // 회원 정보 가져오기 (성별 포함)
+                const memberInfo = memberMap.get(memberId) || { name: `Unknown (${memberId})`, generation: '??', gender: '??' };
+
+                // 성별 필터링: '전체'가 아니고, 멤버 성별이 선택된 성별과 다르면 건너뜀
+                // 비교 대상: memberInfo.gender ("남성" 또는 "여성") 와 selectedGender ("남성" 또는 "여성")
+                if (selectedGender !== 'all' && memberInfo.gender !== selectedGender) {
+                    return;
+                }
+
+                // --- 이하 기존 로직 동일 ---
+                const yearData = memberAttendance.attendance.find(att => att.year === yearInt);
+
+                if (yearData) {
+                    attendanceCount = yearData.attendance_count;
+                }
+
+                attendanceList.push({
+                    id: memberId,
+                    name: memberInfo.name,
+                    generation: memberInfo.generation,
+                    gender: memberInfo.gender,
+                    count: attendanceCount
+                });
+            });
+
+            const attendanceTop10 = attendanceList
+                .sort((a, b) => b.count - a.count) // 참석 많은 순 (내림차순)
+                .slice(0, 10);
+
+            return attendanceTop10;
+        }
+
+
+        /**
+         * 계산된 통계 결과를 HTML 리스트 형태로 화면에 표시하는 함수
+         * @param {Array} statsList - 표시할 통계 데이터 배열 (Top 10)
+         * @param {HTMLElement} targetDiv - 결과 리스트를 표시할 대상 div 요소
+         * @param {string} valueKey - 각 항목에서 표시할 값의 키 이름
+         * @param {string} [unit=''] - 값 뒤에 붙일 단위 문자열
+         */
+        function displayStats(statsList, targetDiv, valueKey, unit = '') {
+            targetDiv.innerHTML = '';
+
+            if (!statsList || statsList.length === 0) {
+                const selectedGenderText = document.querySelector('input[name="gender-filter"]:checked').value;
+                // 'all'이면 빈 문자열, 아니면 '남성 ' 또는 '여성 ' (띄어쓰기 포함)
+                const genderMsgPart = selectedGenderText === 'all' ? '' : (selectedGenderText === '남성' ? '남성 ' : '여성 ');
+                displayMessage(targetDiv, `표시할 ${genderMsgPart}데이터가 없습니다.`);
+                return;
+            }
+
+            const ol = document.createElement('ol');
+            ol.className = 'list-decimal list-inside space-y-2';
+
+            statsList.forEach((stat, index) => {
+                const li = document.createElement('li');
+                const valueDisplay = stat[valueKey];
+                const generationText = stat.generation ? `${stat.generation}회` : '';
+
+                li.className = 'p-2 rounded ' + (index < 3 ? 'bg-yellow-100 font-semibold' : 'bg-white');
+                li.textContent = `${generationText} ${stat.name}: ${valueDisplay}${unit}`.trim();
+
+                ol.appendChild(li);
+            });
+
+            targetDiv.appendChild(ol);
+        }
+
+        /**
+         * 지정된 div에 메시지를 표시하는 함수
+         * @param {HTMLElement} targetDiv - 메시지를 표시할 대상 div 요소
+         * @param {string} message - 표시할 메시지 문자열
+         */
+        function displayMessage(targetDiv, message) {
+            if (targetDiv) {
+                targetDiv.innerHTML = `<p class="message">${message}</p>`;
+            } else {
+                console.error("메시지를 표시할 대상 Div를 찾을 수 없습니다:", targetDiv);
+            }
+        }
+
+        // --- 이벤트 리스너 등록 ---
+        // 연도 선택 변경 시
+        yearSelect.addEventListener('change', loadAndProcessData);
+
+        // 성별 라디오 버튼 변경 시
+        genderRadios.forEach(radio => {
+            radio.addEventListener('change', loadAndProcessData);
+        });
+
+        // --- 초기 데이터 로드 ---
+        document.addEventListener('DOMContentLoaded', loadAndProcessData);
+
+    </script>
+
+</body>
+</html>

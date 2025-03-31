@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>소개 - 청구회 골프모임</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/login-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="js/auth.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <style>
+        .president-message-section {
+            padding: 60px 0;
+            background-color: #f9f9f9;
+        }
+
+        .president-message-content {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            gap: 40px;
+        }
+
+        .president-image {
+            flex: 1;
+            min-width: 200px;
+            max-width: 16.7%;  /* 1:5 비율에서 사진이 차지하는 비율 */
+        }
+
+        .president-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .president-message {
+            flex: 5;  /* 텍스트가 사진의 5배 공간 차지 */
+            min-width: 300px;
+        }
+
+        .president-message h3 {
+            color: #0a5f38;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+        }
+
+        .president-message p {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        .president-signature {
+            margin-top: 30px;
+            text-align: right;
+            font-style: italic;
+            font-weight: 600;
+        }
+
+        /* 운영진 카드 스타일 수정 (이미지 없는 버전) */
+        .leader-card {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .leader-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .leader-info h3 {
+            color: #0a5f38;
+            margin-bottom: 10px;
+            font-size: 1.5rem;
+        }
+
+        .leader-role {
+            color: #1a75bb;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+
+        /* 모바일 반응형 */
+        @media (max-width: 768px) {
+            .president-message-content {
+                flex-direction: column;
+            }
+            
+            .president-image {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 헤더 섹션 -->
+        <header>
+            <div class="logo">
+                <h1><a href="index.html">청구회</a></h1>
+            </div>
+            <nav>
+                <ul class="main-menu">
+                    <li><a href="index.html">홈</a></li>
+                    <li><a href="about.html" class="active">소개</a></li>
+                    <li><a href="schedule.html">모임 일정</a></li>
+                    <li><a href="awards.html">수상내역</a></li>
+                    <li class="login-item"><a href="mypage.html" id="mypage-link">내 페이지</a></li>
+                    <li class="login-item admin-only"><a href="admin.html" id="admin-link">관리자</a></li>
+                </ul>
+                <div class="hamburger-menu">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </nav>
+            <div class="login-status">
+                <a href="#" id="login-btn">로그인</a>
+                <a href="#" id="logout-btn" style="display: none;">로그아웃</a>
+            </div>
+        </header>
+
+        <!-- 소개 배너 (배경 이미지 추가) -->
+        <section class="about-banner" style="background-image: url('/assets/img/about-banner.jpg'); background-size: cover; background-position: center;">
+            <div class="banner-content">
+                <h2>청구회 소개</h2>
+                <p>함께 성장하는 골프 커뮤니티</p>
+            </div>
+        </section>
+
+        <!-- 회장 인사말 섹션 (1:5 비율) -->
+        <section class="president-message-section">
+            <div class="section-title">
+                <h2>회장 인사말</h2>
+            </div>
+            <div class="president-message-content">
+                <div class="president-image">
+                    <img src="/assets/img/president.jpg" alt="회장 사진">
+                </div>
+                <div class="president-message">
+                    <h3>안녕하십니까, 청구회 회장 오호진입니다.</h3>
+                    <p>청구회는 2010년 창립 이래로 골프를 통한 친목과 성장을 추구하며 발전해왔습니다. 우리 모임은 단순한 골프 모임이 아닌, 서로의 발전을 응원하고 도움을 주는 따뜻한 공동체입니다.</p>
+                    <p>매달 정기 모임과 계절별 특별 대회를 통해 회원들은 골프 실력뿐만 아니라 소중한 인연도 함께 쌓아가고 있습니다. 또한, 연례 자선 행사를 통해 지역 사회에 기여하는 활동도 이어가고 있습니다.</p>
+                    <p>청구회는 앞으로도 모든 회원들이 즐겁게 참여하고 성장할 수 있는 모임이 되도록 노력하겠습니다. 감사합니다.</p>
+                    <div class="president-signature">
+                        <p>청구회 회장 오호진 드림</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 모임 역사 섹션 -->
+        <section class="history-section">
+            <div class="section-title">
+                <h2>청구회 역사</h2>
+            </div>
+            <div class="history-content">
+                <div class="timeline">
+                    <div class="timeline-item left">
+                        <div class="timeline-content">
+                            <h3>2010년</h3>
+                            <p>청구회 창립. 초기 회원 10명으로 시작하여 첫 정기 모임 개최.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right">
+                        <div class="timeline-content">
+                            <h3>2012년</h3>
+                            <p>첫 번째 자체 대회인 '청구배' 개최. 회원 수 20명으로 증가.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left">
+                        <div class="timeline-content">
+                            <h3>2015년</h3>
+                            <p>지역 골프 클럽과 협력 관계 구축. 연 4회 정기 대회 체계 확립.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right">
+                        <div class="timeline-content">
+                            <h3>2018년</h3>
+                            <p>회원 50명 돌파. 청구회 공식 로고 및 기념품 제작.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item left">
+                        <div class="timeline-content">
+                            <h3>2020년</h3>
+                            <p>창립 10주년 기념 특별 대회 개최. 자선 기금 마련 행사 시작.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item right">
+                        <div class="timeline-content">
+                            <h3>2025년</h3>
+                            <p>현재 회원 70명 활동 중. 매월 정기 모임 및 계절별 특별 대회 진행.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 모임 목표 섹션 -->
+        <section class="mission-section">
+            <div class="section-title">
+                <h2>청구회 목표</h2>
+            </div>
+            <div class="mission-content">
+                <div class="mission-card">
+                    <div class="mission-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>친목 도모</h3>
+                    <p>골프를 통해 회원들 간의 우정과 친목을 다지며 서로의 성장을 응원합니다.</p>
+                </div>
+                <div class="mission-card">
+                    <div class="mission-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>실력 향상</h3>
+                    <p>정기적인 라운딩과 피드백을 통해 회원들의 골프 실력 향상을 돕습니다.</p>
+                </div>
+                <div class="mission-card">
+                    <div class="mission-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>건전한 경쟁</h3>
+                    <p>다양한 대회를 통해 건전한 경쟁 정신을 기르고 도전 정신을 고취합니다.</p>
+                </div>
+                <div class="mission-card">
+                    <div class="mission-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>사회 공헌</h3>
+                    <p>연례 자선 대회를 통해 지역 사회에 기여하고 나눔을 실천합니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 운영진 소개 섹션 (프로필 사진 제거 및 정보 업데이트) -->
+        <section class="leadership-section">
+            <div class="section-title">
+                <h2>운영진 소개</h2>
+            </div>
+            <div class="leadership-content">
+                <div class="leader-card" data-member-id="30">
+                    <div class="leader-info">
+                        <h3>오호진</h3>
+                        <p class="leader-role">회장</p>
+                        <p>청구회 창립 멤버로, 2020년부터 회장직을 맡고 있습니다. 골프 경력 20년의 베테랑 골퍼입니다.</p>
+                    </div>
+                </div>
+                <div class="leader-card" data-member-id="36">
+                    <div class="leader-info">
+                        <h3>최치영</h3>
+                        <p class="leader-role">부회장</p>
+                        <p>2019년부터 부회장으로 활동하며 회장을 보좌하고 모임의 전반적인 운영에 참여하고 있습니다.</p>
+                    </div>
+                </div>
+                <div class="leader-card" data-member-id="42">
+                    <div class="leader-info">
+                        <h3>김형찬</h3>
+                        <p class="leader-role">총무과</p>
+                        <p>2020년부터 총무과를 맡아 모임의 재정과 행사를 담당하고 있습니다. 세심한 기획으로 모임의 질을 높이고 있습니다.</p>
+                    </div>
+                </div>
+                <div class="leader-card" data-member-id="39">
+                    <div class="leader-info">
+                        <h3>유대균</h3>
+                        <p class="leader-role">경기과</p>
+                        <p>2021년부터 경기과로 활동하며 공정한 대회 운영과 경기 규칙 적용에 힘쓰고 있습니다.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 로그인 모달 -->
+        <div id="login-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>청구회 로그인</h2>
+                <form id="login-form">
+                    <div class="form-group">
+                        <label for="username">성함</label>
+                        <input type="text" id="username" name="username" placeholder="이름을 입력하세요" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">전화번호 뒷 4자리</label>
+                        <input type="password" id="password" name="password" placeholder="전화번호 뒷 4자리" maxlength="4" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">로그인</button>
+                    </div>
+                    <p class="login-help">* 이름과 전화번호 뒷 4자리로 로그인하세요.</p>
+                </form>
+            </div>
+        </div>
+
+        <!-- 푸터 섹션 -->
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>청구회</h3>
+                    <p>함께하는 골프, 함께하는 열정</p>
+                </div>
+                <div class="footer-links">
+                    <h4>바로가기</h4>
+                    <ul>
+                        <li><a href="index.html">홈</a></li>
+                        <li><a href="about.html">소개</a></li>
+                        <li><a href="schedule.html">모임 일정</a></li>
+                        <li><a href="awards.html">수상내역</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>연락처</h4>
+                    <p><i class="fas fa-envelope"></i> email@chunggu.com</p>
+                    <p><i class="fas fa-phone"></i> 010-1234-5678</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 청구회. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

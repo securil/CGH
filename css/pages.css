@@ -1,0 +1,644 @@
+/**
+ * 수상내역 페이지 스타일
+ */
+
+/* 히어로 섹션 */
+.awards-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/img/golf-awards.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 6rem 2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.awards-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.awards-hero p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* 최근 모임 수상내역 섹션 */
+.recent-events-section {
+    margin-bottom: 4rem;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.section-title h2 {
+    font-size: 2.2rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.section-title p {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+}
+
+.recent-events-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* 이벤트 카드 스타일 */
+.event-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.event-card-header {
+    padding: 1.5rem;
+    border-bottom: 1px solid #eee;
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    color: white;
+}
+
+.event-title {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.event-date {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    opacity: 0.9;
+}
+
+.event-location, .event-course {
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+    opacity: 0.8;
+}
+
+.event-location i, .event-course i {
+    margin-right: 5px;
+}
+
+.event-card-body {
+    padding: 1.5rem;
+}
+
+.awards-main {
+    display: grid;
+    gap: 1rem;
+}
+
+.award-item {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: background-color 0.2s;
+}
+
+.award-item:hover {
+    background-color: #f0f0f0;
+}
+
+.award-item.main-award {
+    background-color: rgba(226, 247, 236, 0.7);
+    border-left: 4px solid var(--primary-color);
+}
+
+.award-icon {
+    font-size: 1.5rem;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+    margin-right: 1rem;
+}
+
+.award-info {
+    flex: 1;
+}
+
+.award-type {
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: var(--text-primary);
+    margin-bottom: 0.3rem;
+}
+
+.award-winner {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+}
+
+.award-detail {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+/* 숨겨진 시상내역 부분 */
+.awards-hidden {
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px dashed #ddd;
+    display: none;
+}
+
+.event-card.show-hidden .awards-hidden {
+    display: block;
+}
+
+.hidden-awards-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--text-primary);
+}
+
+.hidden-awards-content {
+    display: grid;
+    gap: 0.8rem;
+}
+
+.hidden-awards-content .award-item {
+    padding: 0.6rem;
+}
+
+/* 토글 버튼 */
+.event-card-footer {
+    padding: 0 1.5rem 1.5rem;
+    text-align: center;
+}
+
+.toggle-awards {
+    background: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+    font-size: 0.9rem;
+}
+
+.toggle-awards:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.toggle-awards .hide-text {
+    display: none;
+}
+
+.event-card.show-hidden .toggle-awards .show-text {
+    display: none;
+}
+
+.event-card.show-hidden .toggle-awards .hide-text {
+    display: inline;
+}
+
+/* 필터 섹션 */
+.filter-section {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.filter-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    flex: 1;
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    min-width: 150px;
+}
+
+.filter-group label {
+    font-size: 0.8rem;
+    margin-bottom: 0.3rem;
+    color: var(--text-secondary);
+}
+
+.filter-select {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.search-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 250px;
+}
+
+.search-group input {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+.view-toggle {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.view-btn {
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.view-btn.active {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* 카드 뷰 스타일 */
+.awards-view.card-view {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.awards-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.awards-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.award-header {
+    padding: 1.5rem;
+    border-bottom: 1px solid #eee;
+    background: linear-gradient(to right, var(--primary-color-light), var(--secondary-color-light));
+}
+
+.award-title {
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+    color: var(--text-primary);
+}
+
+.award-date, .award-location, .award-course {
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+    color: var(--text-secondary);
+}
+
+.award-date i, .award-location i, .award-course i {
+    margin-right: 0.3rem;
+    color: var(--primary-color);
+}
+
+.award-body {
+    padding: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.award-type-card {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: background-color 0.2s;
+    border-left: 3px solid transparent;
+}
+
+.award-type-card:hover {
+    background-color: #f0f0f0;
+}
+
+.award-type-card:nth-child(1) {
+    border-left-color: #FFD700; /* 골드 - 신페리오 */
+}
+
+.award-type-card:nth-child(2), .award-type-card:nth-child(3) {
+    border-left-color: #C0C0C0; /* 실버 - 메달리스트 */
+}
+
+.award-type-card:nth-child(4), .award-type-card:nth-child(5) {
+    border-left-color: #6BB2F1; /* 파랑 - 롱기스트 */
+}
+
+.award-type-card:nth-child(6), .award-type-card:nth-child(7) {
+    border-left-color: #F16B6B; /* 빨강 - 니어리스트 */
+}
+
+.award-type-icon {
+    font-size: 1.3rem;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-color);
+    margin-right: 0.8rem;
+}
+
+.award-type-info {
+    flex: 1;
+}
+
+.award-type-name {
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: var(--text-primary);
+    margin-bottom: 0.3rem;
+}
+
+.award-winner {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+    display: flex;
+    align-items: center;
+}
+
+.award-winner .avatar {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+}
+
+.award-winner .generation {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin-left: 0.5rem;
+    opacity: 0.8;
+}
+
+.award-record {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+/* 테이블 뷰 스타일 */
+.table-responsive {
+    overflow-x: auto;
+    margin-bottom: 3rem;
+}
+
+.awards-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #eee;
+}
+
+.awards-table th, .awards-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.awards-table th {
+    background-color: var(--primary-color-light);
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+.awards-table tr:hover {
+    background-color: #f9f9f9;
+}
+
+.award-type-badge {
+    display: inline-block;
+    padding: 0.3rem 0.6rem;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    color: white;
+}
+
+.badge-type-1 {
+    background-color: #FFD700; /* 신페리오 */
+}
+
+.badge-type-2, .badge-type-3 {
+    background-color: #C0C0C0; /* 메달리스트 */
+}
+
+.badge-type-4, .badge-type-5 {
+    background-color: #6BB2F1; /* 롱기스트 */
+}
+
+.badge-type-6, .badge-type-7 {
+    background-color: #F16B6B; /* 니어리스트 */
+}
+
+/* 통계 섹션 */
+.stats-section {
+    margin-bottom: 4rem;
+}
+
+.stats-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.stats-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+.stats-card:hover {
+    transform: translateY(-5px);
+}
+
+.stats-icon {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(10, 95, 56, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-right: 1rem;
+}
+
+.stats-content {
+    flex: 1;
+}
+
+.stats-content h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-secondary);
+}
+
+.stats-value {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.stats-name {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+.stats-detail {
+    font-size: 0.9rem;
+    color: var(--primary-color);
+}
+
+/* 로딩 스피너 */
+.loading-spinner {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid rgba(10, 95, 56, 0.1);
+    border-radius: 50%;
+    border-top-color: var(--primary-color);
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* 데이터 없음 메시지 */
+.no-data {
+    text-align: center;
+    padding: 2rem;
+    color: var(--text-secondary);
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+/* 반응형 스타일 */
+@media (max-width: 992px) {
+    .awards-hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .recent-events-container {
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .awards-hero {
+        padding: 4rem 1.5rem;
+    }
+    
+    .awards-hero h1 {
+        font-size: 2rem;
+    }
+    
+    .section-title h2 {
+        font-size: 1.8rem;
+    }
+    
+    .filter-section {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .filter-container {
+        flex-direction: column;
+    }
+    
+    .filter-group {
+        width: 100%;
+    }
+    
+    .view-toggle {
+        width: 100%;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+    
+    .stats-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 576px) {
+    .awards-view.card-view {
+        grid-template-columns: 1fr;
+    }
+    
+    .award-body {
+        grid-template-columns: 1fr;
+    }
+    
+    .event-title {
+        font-size: 1.2rem;
+    }
+}

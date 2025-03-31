@@ -1,0 +1,83 @@
+{
+  "meeting_id": 2205,
+  "meeting_date": "2022-05-24",
+  "meeting_name": "2022년 5월 모임",
+  "participants_count": 108,
+  "awards": {
+    "  신폐리오": {
+      "name": "권영선",
+      "generation": 26,
+      "record": "n71, g78"
+    },
+    "  메달리스트 남": {
+      "name": "전환",
+      "generation": 36,
+      "record": "71"
+    },
+    "  메달리스트 여": {
+      "name": "유대균",
+      "generation": 39,
+      "record": "72"
+    },
+    "  롱기스트 남": {
+      "name": "정윤성",
+      "generation": 39,
+      "record": "280"
+    },
+    "  롱기스트 여": {
+      "name": "안정화",
+      "generation": 44,
+      "record": "210"
+    },
+    "니어리스트 남": {
+      "name": "심상인",
+      "generation": 27,
+      "record": "1"
+    },
+    "니어리스트": {
+      "name": "정연삼",
+      "generation": 30,
+      "record": "2"
+    },
+    "다파상": {
+      "name": "최관호",
+      "generation": 27,
+      "record": "12개"
+    },
+    "다보기상": {
+      "name": "안형준",
+      "generation": 43,
+      "record": "16개"
+    },
+    "양파상": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "특별상 남": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "특별상 여": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "행운상": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "단체상": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "null": {
+      "name": null,
+      "generation": null,
+      "record": null
+    }
+  }
+}

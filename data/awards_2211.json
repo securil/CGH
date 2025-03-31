@@ -1,0 +1,83 @@
+{
+  "meeting_id": 2211,
+  "meeting_date": "2022-11-22",
+  "meeting_name": "2022년 납회식",
+  "participants_count": 72,
+  "awards": {
+    "  신폐리오": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "  메달리스트 남": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "  메달리스트 여": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "  롱기스트 남": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "  롱기스트 여": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "니어리스트 남": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "니어리스트": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "다파상": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "다보기상": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "양파상": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "특별상 남": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "특별상 여": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "행운상": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "단체상": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "null": {
+      "name": null,
+      "generation": null,
+      "record": null
+    }
+  }
+}

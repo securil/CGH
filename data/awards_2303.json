@@ -1,0 +1,83 @@
+{
+  "meeting_id": 2303,
+  "meeting_date": "2023-03-28",
+  "meeting_name": "2023년 개회식",
+  "participants_count": 63,
+  "awards": {
+    "  신폐리오": {
+      "name": "이호원",
+      "generation": 33,
+      "record": "n 72, g 86"
+    },
+    "  메달리스트 남": {
+      "name": "고광덕",
+      "generation": 29,
+      "record": "76타"
+    },
+    "  메달리스트 여": {
+      "name": "안정화",
+      "generation": 44,
+      "record": "83타"
+    },
+    "  롱기스트 남": {
+      "name": "오호진",
+      "generation": 30,
+      "record": "270"
+    },
+    "  롱기스트 여": {
+      "name": "송인심",
+      "generation": 36,
+      "record": "160"
+    },
+    "니어리스트 남": {
+      "name": "조남규",
+      "generation": 36,
+      "record": "1"
+    },
+    "니어리스트": {
+      "name": "김연중",
+      "generation": 43,
+      "record": "1.4"
+    },
+    "다파상": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "다보기상": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "양파상": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "특별상 남": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "특별상 여": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "행운상": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "단체상": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "null": {
+      "name": null,
+      "generation": null,
+      "record": null
+    }
+  }
+}

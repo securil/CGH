@@ -1,0 +1,83 @@
+{
+  "meeting_id": 2308,
+  "meeting_date": "2023-08-22",
+  "meeting_name": "2023년 8월 모임",
+  "participants_count": 45,
+  "awards": {
+    "  신폐리오": {
+      "name": "김형찬",
+      "generation": 42,
+      "record": "n70.4 g80"
+    },
+    "  메달리스트 남": {
+      "name": "류동석",
+      "generation": 42,
+      "record": "72"
+    },
+    "  메달리스트 여": {
+      "name": "박미신",
+      "generation": 36,
+      "record": "81"
+    },
+    "  롱기스트 남": {
+      "name": "정윤성",
+      "generation": 39,
+      "record": "284"
+    },
+    "  롱기스트 여": {
+      "name": "이현자",
+      "generation": 30,
+      "record": "180"
+    },
+    "니어리스트 남": {
+      "name": "박기로",
+      "generation": 36,
+      "record": "3"
+    },
+    "니어리스트": {
+      "name": "임부귀",
+      "generation": 36,
+      "record": "2"
+    },
+    "다파상": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "다보기상": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "양파상": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "특별상 남": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "특별상 여": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "행운상": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "단체상": {
+      "name": null,
+      "generation": null,
+      "record": null
+    },
+    "null": {
+      "name": null,
+      "generation": null,
+      "record": null
+    }
+  }
+}

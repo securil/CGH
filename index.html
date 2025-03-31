@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>청구회 - 골프모임</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <!-- responsive.css를 가장 마지막에 로드하여 다른 스타일을 덮어쓰도록 함 -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/login-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="js/auth.js" defer></script>
+    <script src="js/main.js" defer></script>
+    <!-- 디버깅을 위한 별도 스크립트 추가 -->
+    <!-- <script src="js/hamburger-debug.js" defer></script> -->
+</head>
+<body>
+    <div class="container">
+        <!-- 헤더 섹션 -->
+        <header>
+            <div class="logo">
+                <h1><a href="index.html">청구회</a></h1>
+            </div>
+            <nav>
+                <div class="hamburger-menu" aria-label="메뉴 열기">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <ul class="main-menu">
+                    <li><a href="index.html" class="active">홈</a></li>
+                    <li><a href="about.html">소개</a></li>
+                    <li><a href="schedule.html">모임 일정</a></li>
+                    <li><a href="awards.html">수상내역</a></li>
+                    <li class="login-item"><a href="mypage.html" id="mypage-link">내 페이지</a></li>
+                    <li class="login-item admin-only"><a href="admin.html" id="admin-link">관리자</a></li>
+                </ul>
+            </nav>
+            <div class="login-status">
+                <a href="#" id="login-btn">로그인</a>
+                <a href="#" id="logout-btn" style="display: none;">로그아웃</a>
+            </div>
+        </header>
+
+        <!-- 메인 배너 섹션 -->
+        <section class="main-banner">
+            <div class="banner-content">
+                <h2>청구회에 오신 것을 환영합니다</h2>
+                <p>함께하는 골프, 함께하는 열정</p>
+                <a href="about.html" class="btn">더 알아보기</a>
+            </div>
+        </section>
+
+        <!-- 모임 소개 섹션 (가운데 정렬) -->
+        <section class="intro-section">
+            <div class="section-title">
+                <h2>청구회 소개</h2>
+            </div>
+            <div class="intro-content">
+                <div class="intro-text">
+                    <p>청구회는 2010년부터 시작된 골프 동호회로, 매월 정기적인 모임을 통해 회원들의 골프 실력 향상과 친목 도모를 위해 활동하고 있습니다.</p>
+                    <p>다양한 수준의 골퍼들이 함께하며 서로의 경험을 나누고 즐거운 시간을 보내고 있습니다.</p>
+                    <a href="about.html" class="btn btn-outline">자세히 보기</a>
+                </div>
+                <div class="intro-image">
+                    <img src="assets/img/clubhouse.jpg" alt="골프 클럽하우스 이미지">
+                </div>
+            </div>
+        </section>
+
+        <!-- 청구회 소개 영상 섹션 -->
+        <section class="video-section">
+            <div class="section-title">
+                <h2>청구회 소개 영상</h2>
+            </div>
+            <div class="video-container">
+                <video controls poster="assets/img/video_poster.jpg">
+                    <source src="assets/video/final.mp4" type="video/mp4">
+                    현재 브라우저에서 비디오 재생을 지원하지 않습니다.
+                </video>
+            </div>
+        </section>
+
+        <!-- 다가오는 모임 섹션 -->
+        <section class="upcoming-section">
+            <div class="section-title">
+                <h2>다가오는 모임</h2>
+            </div>
+            <div class="upcoming-content" id="upcoming-events">
+                <!-- JS로 데이터 로드 -->
+                <div class="loading-spinner">
+                    <div class="spinner"></div>
+                </div>
+            </div>
+            <div class="section-footer">
+                <a href="schedule.html" class="btn">모든 일정 보기</a>
+            </div>
+        </section>
+
+        <!-- 최근 수상 섹션 -->
+        <section class="recent-awards">
+            <div class="section-title">
+                <h2>최근 수상 내역</h2>
+            </div>
+            <div class="awards-content" id="recent-awards">
+                <!-- JS로 데이터 로드 -->
+                <div class="loading-spinner">
+                    <div class="spinner"></div>
+                </div>
+            </div>
+            <div class="section-footer">
+                <a href="awards.html" class="btn">모든 수상 내역</a>
+            </div>
+        </section>
+
+        <!-- 갤러리 하이라이트 섹션 -->
+        <section class="gallery-section">
+            <div class="section-title">
+                <h2>갤러리 하이라이트</h2>
+            </div>
+            <div class="gallery-container">
+                <div class="gallery-item">
+                    <img src="assets/img/gallery-1.jpg" alt="청구회 골프 모임 사진 1">
+                    <div class="overlay">
+                        <h3>2025년 봄 정기 모임</h3>
+                        <p>성남 남서울CC에서의 즐거운 라운딩</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/img/gallery-2.jpg" alt="청구회 골프 모임 사진 2">
+                    <div class="overlay">
+                        <h3>2024년 가을 대회</h3>
+                        <p>우승팀의 기념 촬영</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/img/gallery-3.jpg" alt="청구회 골프 모임 사진 3">
+                    <div class="overlay">
+                        <h3>친목 만찬</h3>
+                        <p>경기 후 회원들과의 즐거운 시간</p>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-footer">
+                <a href="#" class="btn">갤러리 더보기</a>
+            </div>
+        </section>
+
+        <!-- 로그인 모달 -->
+        <div id="login-modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>청구회 로그인</h2>
+                <form id="login-form">
+                    <div class="form-group">
+                        <label for="username">성함</label>
+                        <input type="text" id="username" name="username" placeholder="이름을 입력하세요" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">전화번호 뒷 4자리</label>
+                        <input type="password" id="password" name="password" placeholder="전화번호 뒷 4자리" maxlength="4" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">로그인</button>
+                    </div>
+                    <p class="login-help">* 이름과 전화번호 뒷 4자리로 로그인하세요.</p>
+                </form>
+            </div>
+        </div>
+
+        <!-- 푸터 섹션 -->
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>청구회</h3>
+                    <p>함께하는 골프, 함께하는 열정</p>
+                </div>
+                <div class="footer-links">
+                    <h4>바로가기</h4>
+                    <ul>
+                        <li><a href="index.html">홈</a></li>
+                        <li><a href="about.html">소개</a></li>
+                        <li><a href="schedule.html">모임 일정</a></li>
+                        <li><a href="awards.html">수상내역</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>연락처</h4>
+                    <p><i class="fas fa-envelope"></i> email@chunggu.com</p>
+                    <p><i class="fas fa-phone"></i> 010-1234-5678</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year">2025</span> 청구회. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

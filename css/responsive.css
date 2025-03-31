@@ -1,0 +1,517 @@
+/* responsive.css - 미디어 쿼리 및 모바일 스타일 */
+
+/* 햄버거 메뉴 기본 스타일 */
+.hamburger-menu {
+    display: none; /* !important 제거 */
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    cursor: pointer;
+    z-index: 150;
+    margin-left: auto;
+    position: relative;
+}
+
+/* 햄버거 메뉴 바 스타일 */
+.hamburger-menu .bar {
+    width: 100%;
+    height: 3px;
+    background-color: var(--primary-color, #0a5f38);
+    transition: all 0.3s ease;
+}
+
+/* 햄버거 메뉴 활성화 스타일 */
+.hamburger-menu.active .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.hamburger-menu.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger-menu.active .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* 대형 화면 (1200px 이상) */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/* 노트북 및 중형 모니터 (992px 이상) */
+@media (max-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+    
+    .intro-content {
+        flex-direction: column;
+    }
+    
+    .section-title h2 {
+        font-size: 2rem;
+    }
+    
+    .banner-content h2 {
+        font-size: 2.5rem;
+    }
+    
+    .timeline::after {
+        left: 31px;
+    }
+    
+    .timeline-item {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+    
+    .timeline-item::after {
+        left: 18px;
+    }
+    
+    .left::after, .right::after {
+        left: 18px;
+    }
+    
+    .right {
+        left: 0%;
+    }
+    
+    .fame-member {
+        width: 180px;
+    }
+    
+    .fame-avatar {
+        width: 130px;
+        height: 130px;
+    }
+}
+
+/* 태블릿 및 작은 노트북 (768px 이상 992px 미만) */
+@media (max-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+    
+    /* 햄버거 메뉴 표시 */
+    .hamburger-menu {
+        display: flex; /* !important 제거 */
+    }
+    
+    /* 모바일 메뉴 스타일 */
+    .main-menu {
+        display: none; /* !important 제거 */
+        position: fixed; /* absolute에서 fixed로 변경 */
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: #ffffff;
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+        z-index: 1000; /* z-index 값 증가 */
+    }
+    
+    .main-menu.active {
+        display: flex; /* !important 제거 */
+        animation: fadeIn 0.3s ease;
+    }
+    
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(-10px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+    
+    .main-menu li {
+        margin: 10px 0;
+    }
+    
+    /* 네비게이션 메뉴 가운데 정렬 스타일 조정 */
+    nav {
+        position: relative;
+        left: auto;
+        transform: none;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end; /* 햄버거 메뉴를 오른쪽에 배치 */
+        align-items: center;
+    }
+    
+    .login-status {
+        position: static;
+        transform: none;
+        margin-top: 0;
+        text-align: right;
+    }
+    
+    header {
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        padding: 1rem;
+    }
+    
+    .banner-content h2 {
+        font-size: 2rem;
+    }
+    
+    .banner-content p {
+        font-size: 1.2rem;
+    }
+    
+    .main-banner {
+        height: 400px;
+    }
+    
+    .profile-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    
+    .profile-avatar {
+        margin: 0 auto;
+    }
+    
+    .profile-stats {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .tab-button {
+        padding: 12px 10px;
+        font-size: 0.9rem;
+    }
+    
+    .tab-content-container {
+        padding: 20px;
+    }
+    
+    .schedule-status {
+        grid-template-columns: 1fr;
+    }
+    
+    .stats-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+    }
+    
+    .stats-card {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        padding: 20px;
+    }
+    
+    .hall-of-fame-content {
+        gap: 20px;
+    }
+    
+    .fame-avatar {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .fame-medal {
+        width: 35px;
+        height: 35px;
+        font-size: 1rem;
+    }
+    
+    .fame-name {
+        font-size: 1.1rem;
+    }
+    
+    .filter-container, .view-toggle {
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 15px;
+    }
+    
+    .schedule-table th:nth-child(4),
+    .schedule-table th:nth-child(5),
+    .schedule-table td:nth-child(4),
+    .schedule-table td:nth-child(5) {
+        display: none;
+    }
+    
+    .calendar-days {
+        grid-auto-rows: minmax(80px, auto);
+    }
+    
+    .calendar-day {
+        min-height: 80px;
+        padding: 5px;
+    }
+    
+    .calendar-event {
+        padding: 3px;
+        font-size: 0.7rem;
+    }
+    
+    /* 갤러리 스타일 조정 */
+    .gallery-container {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    
+    /* 비디오 컨테이너 조정 */
+    .video-container {
+        max-width: 90%;
+    }
+}
+
+/* 모바일 (768px 미만) */
+@media (max-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+    
+    .banner-content h2 {
+        font-size: 1.8rem;
+    }
+    
+    section {
+        padding: 50px 0;
+    }
+    
+    .section-title {
+        margin-bottom: 30px;
+    }
+    
+    .section-title h2 {
+        font-size: 1.8rem;
+    }
+    
+    .leader-card {
+        flex-direction: column;
+    }
+    
+    .leader-image {
+        flex: 0 0 200px;
+        width: 100%;
+    }
+    
+    .profile-stats {
+        grid-template-columns: 1fr;
+    }
+    
+    .stat-card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+        padding: 10px 15px;
+    }
+    
+    .stat-value {
+        margin-bottom: 0;
+    }
+    
+    .tab-navigation {
+        flex-direction: column;
+    }
+    
+    .tab-button {
+        border-bottom: none;
+        border-left: 2px solid transparent;
+    }
+    
+    .tab-button.active {
+        border-bottom: none;
+        border-left: 2px solid var(--primary-color, #0a5f38);
+    }
+    
+    .awards-badges {
+        justify-content: center;
+    }
+    
+    .filter-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .filter-group, .search-group {
+        width: 100%;
+    }
+    
+    .search-group input {
+        min-width: auto;
+        flex: 1;
+    }
+    
+    .view-toggle {
+        overflow-x: auto;
+        padding-bottom: 5px;
+    }
+    
+    .view-btn {
+        padding: 6px 12px;
+        white-space: nowrap;
+    }
+    
+    .calendar-weekdays div, .calendar-day-number {
+        font-size: 0.8rem;
+    }
+    
+    .calendar-days {
+        grid-auto-rows: minmax(60px, auto);
+    }
+    
+    .calendar-day {
+        min-height: 60px;
+        padding: 3px;
+    }
+    
+    .event-header {
+        height: 150px;
+    }
+    
+    .event-header-title {
+        font-size: 1.5rem;
+    }
+    
+    .event-body {
+        padding: 20px;
+    }
+    
+    .stats-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .stats-card {
+        flex-direction: row;
+        text-align: left;
+        gap: 15px;
+    }
+    
+    .fame-member {
+        width: 160px;
+    }
+    
+    .fame-avatar {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .fame-medal {
+        width: 30px;
+        height: 30px;
+        font-size: 0.9rem;
+    }
+    
+    .fame-name {
+        font-size: 1rem;
+    }
+    
+    /* 갤러리 스타일 조정 */
+    .gallery-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .gallery-item {
+        aspect-ratio: 16/9;
+    }
+    
+    /* 푸터 스타일 조정 */
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .footer-logo,
+    .footer-links,
+    .footer-contact {
+        width: 100%;
+    }
+    
+    .footer-links h4::after,
+    .footer-contact h4::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+/* 작은 모바일 (576px 미만) */
+@media (max-width: 480px) {
+    .main-banner {
+        height: 350px;
+    }
+    
+    .banner-content h2 {
+        font-size: 1.5rem;
+    }
+    
+    .banner-content p {
+        font-size: 1rem;
+    }
+    
+    .intro-text p {
+        font-size: 1rem;
+    }
+    
+    .section-title h2 {
+        font-size: 1.5rem;
+    }
+    
+    .profile-header {
+        gap: 15px;
+    }
+    
+    .avatar-placeholder {
+        width: 100px;
+        height: 100px;
+        font-size: 2.5rem;
+    }
+    
+    .profile-basic-info h3 {
+        font-size: 1.5rem;
+    }
+    
+    .fame-member {
+        width: 140px;
+    }
+    
+    .fame-avatar {
+        width: 90px;
+        height: 90px;
+    }
+    
+    .event-modal-content {
+        margin: 50px 15px;
+    }
+    
+    .modal-content {
+        margin: 80px 15px;
+        padding: 20px;
+    }
+    
+    /* 모바일 메뉴 추가 조정 */
+    .hamburger-menu {
+        margin-left: auto;
+    }
+    
+    /* 헤더 레이아웃 조정 */
+    header {
+        padding: 15px;
+        flex-wrap: wrap;
+    }
+    
+    .logo h1 {
+        font-size: 1.5rem;
+    }
+    
+    .login-status {
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    .login-status a {
+        padding: 8px 15px;
+    }
+}

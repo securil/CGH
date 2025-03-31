@@ -1,0 +1,3728 @@
+[
+  {
+    "meeting_id": 2203,
+    "award_type_id": 1,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2204,
+    "award_type_id": 1,
+    "member_id": 186,
+    "record": "n 71, g 71"
+  },
+  {
+    "meeting_id": 2205,
+    "award_type_id": 1,
+    "member_id": 55,
+    "record": "n71, g78"
+  },
+  {
+    "meeting_id": 2206,
+    "award_type_id": 1,
+    "member_id": 89,
+    "record": "n72.0, g72"
+  },
+  {
+    "meeting_id": 2208,
+    "award_type_id": 1,
+    "member_id": null,
+    "record": "n70.4, g80"
+  },
+  {
+    "meeting_id": 2209,
+    "award_type_id": 1,
+    "member_id": 88,
+    "record": "n72, g78"
+  },
+  {
+    "meeting_id": 2210,
+    "award_type_id": 1,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2211,
+    "award_type_id": 1,
+    "member_id": null,
+    "record": "n71, g92"
+  },
+  {
+    "meeting_id": 2303,
+    "award_type_id": 1,
+    "member_id": 166,
+    "record": "n 72, g 86"
+  },
+  {
+    "meeting_id": 2304,
+    "award_type_id": 1,
+    "member_id": 124,
+    "record": "n72.2,g84"
+  },
+  {
+    "meeting_id": 2305,
+    "award_type_id": 1,
+    "member_id": 219,
+    "record": "n69.8 g77"
+  },
+  {
+    "meeting_id": 2306,
+    "award_type_id": 1,
+    "member_id": 228,
+    "record": "n71.6 g74"
+  },
+  {
+    "meeting_id": 2308,
+    "award_type_id": 1,
+    "member_id": 260,
+    "record": "n70.4 g80"
+  },
+  {
+    "meeting_id": 2310,
+    "award_type_id": 1,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2311,
+    "award_type_id": 1,
+    "member_id": 113,
+    "record": null
+  },
+  {
+    "meeting_id": 2403,
+    "award_type_id": 1,
+    "member_id": 114,
+    "record": "n:71.6 / g:92"
+  },
+  {
+    "meeting_id": 2404,
+    "award_type_id": 1,
+    "member_id": 228,
+    "record": "n 70, g 84"
+  },
+  {
+    "meeting_id": 2405,
+    "award_type_id": 1,
+    "member_id": 308,
+    "record": "n 69, g 81"
+  },
+  {
+    "meeting_id": 2406,
+    "award_type_id": 1,
+    "member_id": 196,
+    "record": "n69.8 g89"
+  },
+  {
+    "meeting_id": 2408,
+    "award_type_id": 1,
+    "member_id": 237,
+    "record": "n 70.2, g 75"
+  },
+  {
+    "meeting_id": 2409,
+    "award_type_id": 1,
+    "member_id": 149,
+    "record": "n 70.2 g87"
+  },
+  {
+    "meeting_id": 2410,
+    "award_type_id": 1,
+    "member_id": 244,
+    "record": "n 71, g83"
+  },
+  {
+    "meeting_id": 2411,
+    "award_type_id": 1,
+    "member_id": 48,
+    "record": "69.8타"
+  },
+  {
+    "meeting_id": 2203,
+    "award_type_id": 2,
+    "member_id": 124,
+    "record": null
+  },
+  {
+    "meeting_id": 2204,
+    "award_type_id": 2,
+    "member_id": 124,
+    "record": "74"
+  },
+  {
+    "meeting_id": 2205,
+    "award_type_id": 2,
+    "member_id": 212,
+    "record": "71"
+  },
+  {
+    "meeting_id": 2206,
+    "award_type_id": 2,
+    "member_id": 217,
+    "record": "72"
+  },
+  {
+    "meeting_id": 2208,
+    "award_type_id": 2,
+    "member_id": 217,
+    "record": "73"
+  },
+  {
+    "meeting_id": 2209,
+    "award_type_id": 2,
+    "member_id": 228,
+    "record": "75"
+  },
+  {
+    "meeting_id": 2210,
+    "award_type_id": 2,
+    "member_id": null,
+    "record": "70"
+  },
+  {
+    "meeting_id": 2211,
+    "award_type_id": 2,
+    "member_id": null,
+    "record": "76"
+  },
+  {
+    "meeting_id": 2303,
+    "award_type_id": 2,
+    "member_id": 98,
+    "record": "76타"
+  },
+  {
+    "meeting_id": 2304,
+    "award_type_id": 2,
+    "member_id": 89,
+    "record": "75타"
+  },
+  {
+    "meeting_id": 2305,
+    "award_type_id": 2,
+    "member_id": 114,
+    "record": "76"
+  },
+  {
+    "meeting_id": 2306,
+    "award_type_id": 2,
+    "member_id": 124,
+    "record": "70타"
+  },
+  {
+    "meeting_id": 2308,
+    "award_type_id": 2,
+    "member_id": 261,
+    "record": "72"
+  },
+  {
+    "meeting_id": 2310,
+    "award_type_id": 2,
+    "member_id": 81,
+    "record": null
+  },
+  {
+    "meeting_id": 2311,
+    "award_type_id": 2,
+    "member_id": 208,
+    "record": "72"
+  },
+  {
+    "meeting_id": 2403,
+    "award_type_id": 2,
+    "member_id": 89,
+    "record": "81"
+  },
+  {
+    "meeting_id": 2404,
+    "award_type_id": 2,
+    "member_id": 124,
+    "record": "79타"
+  },
+  {
+    "meeting_id": 2405,
+    "award_type_id": 2,
+    "member_id": 305,
+    "record": "76타"
+  },
+  {
+    "meeting_id": 2406,
+    "award_type_id": 2,
+    "member_id": 149,
+    "record": "74타"
+  },
+  {
+    "meeting_id": 2408,
+    "award_type_id": 2,
+    "member_id": 217,
+    "record": "75"
+  },
+  {
+    "meeting_id": 2409,
+    "award_type_id": 2,
+    "member_id": 186,
+    "record": "76타"
+  },
+  {
+    "meeting_id": 2410,
+    "award_type_id": 2,
+    "member_id": 228,
+    "record": "75타"
+  },
+  {
+    "meeting_id": 2411,
+    "award_type_id": 2,
+    "member_id": 143,
+    "record": "74타"
+  },
+  {
+    "meeting_id": 2203,
+    "award_type_id": 3,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2204,
+    "award_type_id": 3,
+    "member_id": 262,
+    "record": "83"
+  },
+  {
+    "meeting_id": 2205,
+    "award_type_id": 3,
+    "member_id": 228,
+    "record": "72"
+  },
+  {
+    "meeting_id": 2206,
+    "award_type_id": 3,
+    "member_id": 289,
+    "record": "77"
+  },
+  {
+    "meeting_id": 2208,
+    "award_type_id": 3,
+    "member_id": 209,
+    "record": "86"
+  },
+  {
+    "meeting_id": 2209,
+    "award_type_id": 3,
+    "member_id": 268,
+    "record": "82"
+  },
+  {
+    "meeting_id": 2210,
+    "award_type_id": 3,
+    "member_id": null,
+    "record": "78"
+  },
+  {
+    "meeting_id": 2211,
+    "award_type_id": 3,
+    "member_id": null,
+    "record": "83"
+  },
+  {
+    "meeting_id": 2303,
+    "award_type_id": 3,
+    "member_id": 289,
+    "record": "83타"
+  },
+  {
+    "meeting_id": 2304,
+    "award_type_id": 3,
+    "member_id": 178,
+    "record": "85타"
+  },
+  {
+    "meeting_id": 2305,
+    "award_type_id": 3,
+    "member_id": 281,
+    "record": "83"
+  },
+  {
+    "meeting_id": 2306,
+    "award_type_id": 3,
+    "member_id": 297,
+    "record": "83타"
+  },
+  {
+    "meeting_id": 2308,
+    "award_type_id": 3,
+    "member_id": 197,
+    "record": "81"
+  },
+  {
+    "meeting_id": 2310,
+    "award_type_id": 3,
+    "member_id": 296,
+    "record": null
+  },
+  {
+    "meeting_id": 2311,
+    "award_type_id": 3,
+    "member_id": 24,
+    "record": "77"
+  },
+  {
+    "meeting_id": 2403,
+    "award_type_id": 3,
+    "member_id": 21,
+    "record": "86"
+  },
+  {
+    "meeting_id": 2404,
+    "award_type_id": 3,
+    "member_id": 21,
+    "record": "90"
+  },
+  {
+    "meeting_id": 2405,
+    "award_type_id": 3,
+    "member_id": null,
+    "record": "87타"
+  },
+  {
+    "meeting_id": 2406,
+    "award_type_id": 3,
+    "member_id": 197,
+    "record": null
+  },
+  {
+    "meeting_id": 2408,
+    "award_type_id": 3,
+    "member_id": 289,
+    "record": "82"
+  },
+  {
+    "meeting_id": 2409,
+    "award_type_id": 3,
+    "member_id": 262,
+    "record": "79타"
+  },
+  {
+    "meeting_id": 2410,
+    "award_type_id": 3,
+    "member_id": null,
+    "record": "89타"
+  },
+  {
+    "meeting_id": 2411,
+    "award_type_id": 3,
+    "member_id": 125,
+    "record": null
+  },
+  {
+    "meeting_id": 2203,
+    "award_type_id": 4,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2204,
+    "award_type_id": 4,
+    "member_id": 98,
+    "record": "265"
+  },
+  {
+    "meeting_id": 2205,
+    "award_type_id": 4,
+    "member_id": 237,
+    "record": "280"
+  },
+  {
+    "meeting_id": 2206,
+    "award_type_id": 4,
+    "member_id": null,
+    "record": "275"
+  },
+  {
+    "meeting_id": 2208,
+    "award_type_id": 4,
+    "member_id": 321,
+    "record": "260"
+  },
+  {
+    "meeting_id": 2209,
+    "award_type_id": 4,
+    "member_id": 220,
+    "record": "290"
+  },
+  {
+    "meeting_id": 2210,
+    "award_type_id": 4,
+    "member_id": null,
+    "record": "285"
+  },
+  {
+    "meeting_id": 2211,
+    "award_type_id": 4,
+    "member_id": null,
+    "record": "275"
+  },
+  {
+    "meeting_id": 2303,
+    "award_type_id": 4,
+    "member_id": 127,
+    "record": "270"
+  },
+  {
+    "meeting_id": 2304,
+    "award_type_id": 4,
+    "member_id": 319,
+    "record": "270yd"
+  },
+  {
+    "meeting_id": 2305,
+    "award_type_id": 4,
+    "member_id": 228,
+    "record": "280"
+  },
+  {
+    "meeting_id": 2306,
+    "award_type_id": 4,
+    "member_id": 287,
+    "record": "270yd"
+  },
+  {
+    "meeting_id": 2308,
+    "award_type_id": 4,
+    "member_id": 237,
+    "record": "284"
+  },
+  {
+    "meeting_id": 2310,
+    "award_type_id": 4,
+    "member_id": 301,
+    "record": null
+  },
+  {
+    "meeting_id": 2311,
+    "award_type_id": 4,
+    "member_id": 124,
+    "record": "253"
+  },
+  {
+    "meeting_id": 2403,
+    "award_type_id": 4,
+    "member_id": 124,
+    "record": "270"
+  },
+  {
+    "meeting_id": 2404,
+    "award_type_id": 4,
+    "member_id": 305,
+    "record": "250yd"
+  },
+  {
+    "meeting_id": 2405,
+    "award_type_id": 4,
+    "member_id": 293,
+    "record": "270yd"
+  },
+  {
+    "meeting_id": 2406,
+    "award_type_id": 4,
+    "member_id": 334,
+    "record": "270yd"
+  },
+  {
+    "meeting_id": 2408,
+    "award_type_id": 4,
+    "member_id": 301,
+    "record": "270"
+  },
+  {
+    "meeting_id": 2409,
+    "award_type_id": 4,
+    "member_id": 78,
+    "record": "270yd"
+  },
+  {
+    "meeting_id": 2410,
+    "award_type_id": 4,
+    "member_id": 315,
+    "record": "260yd"
+  },
+  {
+    "meeting_id": 2411,
+    "award_type_id": 4,
+    "member_id": 302,
+    "record": "273yd"
+  },
+  {
+    "meeting_id": 2203,
+    "award_type_id": 5,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2204,
+    "award_type_id": 5,
+    "member_id": 101,
+    "record": "200"
+  },
+  {
+    "meeting_id": 2205,
+    "award_type_id": 5,
+    "member_id": 289,
+    "record": "210"
+  },
+  {
+    "meeting_id": 2206,
+    "award_type_id": 5,
+    "member_id": 339,
+    "record": "200"
+  },
+  {
+    "meeting_id": 2208,
+    "award_type_id": 5,
+    "member_id": 262,
+    "record": "200"
+  },
+  {
+    "meeting_id": 2209,
+    "award_type_id": 5,
+    "member_id": 209,
+    "record": "200"
+  },
+  {
+    "meeting_id": 2210,
+    "award_type_id": 5,
+    "member_id": null,
+    "record": "200"
+  },
+  {
+    "meeting_id": 2211,
+    "award_type_id": 5,
+    "member_id": null,
+    "record": "180"
+  },
+  {
+    "meeting_id": 2303,
+    "award_type_id": 5,
+    "member_id": 199,
+    "record": "160"
+  },
+  {
+    "meeting_id": 2304,
+    "award_type_id": 5,
+    "member_id": 262,
+    "record": "200yd"
+  },
+  {
+    "meeting_id": 2305,
+    "award_type_id": 5,
+    "member_id": 316,
+    "record": "195"
+  },
+  {
+    "meeting_id": 2306,
+    "award_type_id": 5,
+    "member_id": 289,
+    "record": "180yd"
+  },
+  {
+    "meeting_id": 2308,
+    "award_type_id": 5,
+    "member_id": 131,
+    "record": "180"
+  },
+  {
+    "meeting_id": 2310,
+    "award_type_id": 5,
+    "member_id": 289,
+    "record": null
+  },
+  {
+    "meeting_id": 2311,
+    "award_type_id": 5,
+    "member_id": 339,
+    "record": "195"
+  },
+  {
+    "meeting_id": 2403,
+    "award_type_id": 5,
+    "member_id": 282,
+    "record": "175"
+  },
+  {
+    "meeting_id": 2404,
+    "award_type_id": 5,
+    "member_id": 243,
+    "record": "176yd"
+  },
+  {
+    "meeting_id": 2405,
+    "award_type_id": 5,
+    "member_id": 197,
+    "record": "180yd"
+  },
+  {
+    "meeting_id": 2406,
+    "award_type_id": 5,
+    "member_id": 339,
+    "record": "180yd"
+  },
+  {
+    "meeting_id": 2408,
+    "award_type_id": 5,
+    "member_id": 312,
+    "record": "190"
+  },
+  {
+    "meeting_id": 2409,
+    "award_type_id": 5,
+    "member_id": 15,
+    "record": "170yd"
+  },
+  {
+    "meeting_id": 2410,
+    "award_type_id": 5,
+    "member_id": 289,
+    "record": "140yd"
+  },
+  {
+    "meeting_id": 2411,
+    "award_type_id": 5,
+    "member_id": 317,
+    "record": "185yd"
+  },
+  {
+    "meeting_id": 2203,
+    "award_type_id": 6,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2204,
+    "award_type_id": 6,
+    "member_id": 66,
+    "record": "0.9"
+  },
+  {
+    "meeting_id": 2205,
+    "award_type_id": 6,
+    "member_id": 81,
+    "record": "1"
+  },
+  {
+    "meeting_id": 2206,
+    "award_type_id": 6,
+    "member_id": 124,
+    "record": "0.3"
+  },
+  {
+    "meeting_id": 2208,
+    "award_type_id": 6,
+    "member_id": 257,
+    "record": "2"
+  },
+  {
+    "meeting_id": 2209,
+    "award_type_id": 6,
+    "member_id": 208,
+    "record": "1"
+  },
+  {
+    "meeting_id": 2210,
+    "award_type_id": 6,
+    "member_id": null,
+    "record": "1.9"
+  },
+  {
+    "meeting_id": 2211,
+    "award_type_id": 6,
+    "member_id": null,
+    "record": "1.5"
+  },
+  {
+    "meeting_id": 2303,
+    "award_type_id": 6,
+    "member_id": 213,
+    "record": "1"
+  },
+  {
+    "meeting_id": 2304,
+    "award_type_id": 6,
+    "member_id": 228,
+    "record": "5.0m"
+  },
+  {
+    "meeting_id": 2305,
+    "award_type_id": 6,
+    "member_id": 217,
+    "record": "4"
+  },
+  {
+    "meeting_id": 2306,
+    "award_type_id": 6,
+    "member_id": 121,
+    "record": "0.7m"
+  },
+  {
+    "meeting_id": 2308,
+    "award_type_id": 6,
+    "member_id": 196,
+    "record": "3"
+  },
+  {
+    "meeting_id": 2310,
+    "award_type_id": 6,
+    "member_id": 240,
+    "record": null
+  },
+  {
+    "meeting_id": 2311,
+    "award_type_id": 6,
+    "member_id": 173,
+    "record": "1"
+  },
+  {
+    "meeting_id": 2403,
+    "award_type_id": 6,
+    "member_id": 235,
+    "record": "0.3"
+  },
+  {
+    "meeting_id": 2404,
+    "award_type_id": 6,
+    "member_id": 319,
+    "record": "1.3m"
+  },
+  {
+    "meeting_id": 2405,
+    "award_type_id": 6,
+    "member_id": 237,
+    "record": "2m"
+  },
+  {
+    "meeting_id": 2406,
+    "award_type_id": 6,
+    "member_id": 10,
+    "record": "0.5m"
+  },
+  {
+    "meeting_id": 2408,
+    "award_type_id": 6,
+    "member_id": 89,
+    "record": "1.4"
+  },
+  {
+    "meeting_id": 2409,
+    "award_type_id": 6,
+    "member_id": 334,
+    "record": "0.8m"
+  },
+  {
+    "meeting_id": 2410,
+    "award_type_id": 6,
+    "member_id": 305,
+    "record": "1.5m"
+  },
+  {
+    "meeting_id": 2411,
+    "award_type_id": 6,
+    "member_id": 293,
+    "record": "2.4m"
+  },
+  {
+    "meeting_id": 2203,
+    "award_type_id": 7,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2204,
+    "award_type_id": 7,
+    "member_id": 197,
+    "record": "2.8"
+  },
+  {
+    "meeting_id": 2205,
+    "award_type_id": 7,
+    "member_id": 138,
+    "record": "2"
+  },
+  {
+    "meeting_id": 2206,
+    "award_type_id": 7,
+    "member_id": 196,
+    "record": "1.3"
+  },
+  {
+    "meeting_id": 2208,
+    "award_type_id": 7,
+    "member_id": 178,
+    "record": "4"
+  },
+  {
+    "meeting_id": 2209,
+    "award_type_id": 7,
+    "member_id": 101,
+    "record": "2.5"
+  },
+  {
+    "meeting_id": 2210,
+    "award_type_id": 7,
+    "member_id": null,
+    "record": "2.6"
+  },
+  {
+    "meeting_id": 2211,
+    "award_type_id": 7,
+    "member_id": null,
+    "record": "5"
+  },
+  {
+    "meeting_id": 2303,
+    "award_type_id": 7,
+    "member_id": 274,
+    "record": "1.4"
+  },
+  {
+    "meeting_id": 2304,
+    "award_type_id": 7,
+    "member_id": 131,
+    "record": "2.0m"
+  },
+  {
+    "meeting_id": 2305,
+    "award_type_id": 7,
+    "member_id": 262,
+    "record": "4"
+  },
+  {
+    "meeting_id": 2306,
+    "award_type_id": 7,
+    "member_id": 312,
+    "record": "5m"
+  },
+  {
+    "meeting_id": 2308,
+    "award_type_id": 7,
+    "member_id": 209,
+    "record": "2"
+  },
+  {
+    "meeting_id": 2310,
+    "award_type_id": 7,
+    "member_id": 118,
+    "record": null
+  },
+  {
+    "meeting_id": 2311,
+    "award_type_id": 7,
+    "member_id": 197,
+    "record": "1.1"
+  },
+  {
+    "meeting_id": 2403,
+    "award_type_id": 7,
+    "member_id": 312,
+    "record": "1.7"
+  },
+  {
+    "meeting_id": 2404,
+    "award_type_id": 7,
+    "member_id": 289,
+    "record": "10m"
+  },
+  {
+    "meeting_id": 2405,
+    "award_type_id": 7,
+    "member_id": 110,
+    "record": "9m"
+  },
+  {
+    "meeting_id": 2406,
+    "award_type_id": 7,
+    "member_id": 316,
+    "record": "5m"
+  },
+  {
+    "meeting_id": 2408,
+    "award_type_id": 7,
+    "member_id": 317,
+    "record": "3"
+  },
+  {
+    "meeting_id": 2409,
+    "award_type_id": 7,
+    "member_id": 282,
+    "record": "1.9m"
+  },
+  {
+    "meeting_id": 2410,
+    "award_type_id": 7,
+    "member_id": 147,
+    "record": "15m"
+  },
+  {
+    "meeting_id": 2411,
+    "award_type_id": 7,
+    "member_id": 61,
+    "record": "3.1m"
+  },
+  {
+    "meeting_id": 2203,
+    "award_type_id": 8,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2204,
+    "award_type_id": 8,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2205,
+    "award_type_id": 8,
+    "member_id": 89,
+    "record": "12개"
+  },
+  {
+    "meeting_id": 2206,
+    "award_type_id": 8,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2208,
+    "award_type_id": 8,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2209,
+    "award_type_id": 8,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2210,
+    "award_type_id": 8,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2211,
+    "award_type_id": 8,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2303,
+    "award_type_id": 8,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2304,
+    "award_type_id": 8,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2305,
+    "award_type_id": 8,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2306,
+    "award_type_id": 8,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2308,
+    "award_type_id": 8,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2310,
+    "award_type_id": 8,
+    "member_id": 186,
+    "record": null
+  },
+  {
+    "meeting_id": 2311,
+    "award_type_id": 8,
+    "member_id": null,
+    "record": "15 개"
+  },
+  {
+    "meeting_id": 2403,
+    "award_type_id": 8,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2404,
+    "award_type_id": 8,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2405,
+    "award_type_id": 8,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2406,
+    "award_type_id": 8,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2408,
+    "award_type_id": 8,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2409,
+    "award_type_id": 8,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2410,
+    "award_type_id": 8,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2411,
+    "award_type_id": 8,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2203,
+    "award_type_id": 9,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2204,
+    "award_type_id": 9,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2205,
+    "award_type_id": 9,
+    "member_id": 278,
+    "record": "16개"
+  },
+  {
+    "meeting_id": 2206,
+    "award_type_id": 9,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2208,
+    "award_type_id": 9,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2209,
+    "award_type_id": 9,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2210,
+    "award_type_id": 9,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2211,
+    "award_type_id": 9,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2303,
+    "award_type_id": 9,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2304,
+    "award_type_id": 9,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2305,
+    "award_type_id": 9,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2306,
+    "award_type_id": 9,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2308,
+    "award_type_id": 9,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2310,
+    "award_type_id": 9,
+    "member_id": 138,
+    "record": null
+  },
+  {
+    "meeting_id": 2311,
+    "award_type_id": 9,
+    "member_id": null,
+    "record": "16개"
+  },
+  {
+    "meeting_id": 2403,
+    "award_type_id": 9,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2404,
+    "award_type_id": 9,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2405,
+    "award_type_id": 9,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2406,
+    "award_type_id": 9,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2408,
+    "award_type_id": 9,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2409,
+    "award_type_id": 9,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2410,
+    "award_type_id": 9,
+    "member_id": 127,
+    "record": null
+  },
+  {
+    "meeting_id": 2411,
+    "award_type_id": 9,
+    "member_id": null,
+    "record": "14개"
+  },
+  {
+    "meeting_id": 2203,
+    "award_type_id": 10,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2204,
+    "award_type_id": 10,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2205,
+    "award_type_id": 10,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2206,
+    "award_type_id": 10,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2208,
+    "award_type_id": 10,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2209,
+    "award_type_id": 10,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2210,
+    "award_type_id": 10,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2211,
+    "award_type_id": 10,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2303,
+    "award_type_id": 10,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2304,
+    "award_type_id": 10,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2305,
+    "award_type_id": 10,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2306,
+    "award_type_id": 10,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2308,
+    "award_type_id": 10,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2310,
+    "award_type_id": 10,
+    "member_id": 317,
+    "record": null
+  },
+  {
+    "meeting_id": 2311,
+    "award_type_id": 10,
+    "member_id": null,
+    "record": "4개"
+  },
+  {
+    "meeting_id": 2403,
+    "award_type_id": 10,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2404,
+    "award_type_id": 10,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2405,
+    "award_type_id": 10,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2406,
+    "award_type_id": 10,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2408,
+    "award_type_id": 10,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2409,
+    "award_type_id": 10,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2410,
+    "award_type_id": 10,
+    "member_id": 229,
+    "record": null
+  },
+  {
+    "meeting_id": 2411,
+    "award_type_id": 10,
+    "member_id": null,
+    "record": "1개"
+  },
+  {
+    "meeting_id": 2203,
+    "award_type_id": 11,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2204,
+    "award_type_id": 11,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2205,
+    "award_type_id": 11,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2206,
+    "award_type_id": 11,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2208,
+    "award_type_id": 11,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2209,
+    "award_type_id": 11,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2210,
+    "award_type_id": 11,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2211,
+    "award_type_id": 11,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2303,
+    "award_type_id": 11,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2304,
+    "award_type_id": 11,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2305,
+    "award_type_id": 11,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2306,
+    "award_type_id": 11,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2308,
+    "award_type_id": 11,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2310,
+    "award_type_id": 11,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2311,
+    "award_type_id": 11,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2403,
+    "award_type_id": 11,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2404,
+    "award_type_id": 11,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2405,
+    "award_type_id": 11,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2406,
+    "award_type_id": 11,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2408,
+    "award_type_id": 11,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2409,
+    "award_type_id": 11,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2410,
+    "award_type_id": 11,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2411,
+    "award_type_id": 11,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2203,
+    "award_type_id": 12,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2204,
+    "award_type_id": 12,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2205,
+    "award_type_id": 12,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2206,
+    "award_type_id": 12,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2208,
+    "award_type_id": 12,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2209,
+    "award_type_id": 12,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2210,
+    "award_type_id": 12,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2211,
+    "award_type_id": 12,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2303,
+    "award_type_id": 12,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2304,
+    "award_type_id": 12,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2305,
+    "award_type_id": 12,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2306,
+    "award_type_id": 12,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2308,
+    "award_type_id": 12,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2310,
+    "award_type_id": 12,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2311,
+    "award_type_id": 12,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2403,
+    "award_type_id": 12,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2404,
+    "award_type_id": 12,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2405,
+    "award_type_id": 12,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2406,
+    "award_type_id": 12,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2408,
+    "award_type_id": 12,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2409,
+    "award_type_id": 12,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2410,
+    "award_type_id": 12,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2411,
+    "award_type_id": 12,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2203,
+    "award_type_id": 13,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2204,
+    "award_type_id": 13,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2205,
+    "award_type_id": 13,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2206,
+    "award_type_id": 13,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2208,
+    "award_type_id": 13,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2209,
+    "award_type_id": 13,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2210,
+    "award_type_id": 13,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2211,
+    "award_type_id": 13,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2303,
+    "award_type_id": 13,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2304,
+    "award_type_id": 13,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2305,
+    "award_type_id": 13,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2306,
+    "award_type_id": 13,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2308,
+    "award_type_id": 13,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2310,
+    "award_type_id": 13,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2311,
+    "award_type_id": 13,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2403,
+    "award_type_id": 13,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2404,
+    "award_type_id": 13,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2405,
+    "award_type_id": 13,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2406,
+    "award_type_id": 13,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2408,
+    "award_type_id": 13,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2409,
+    "award_type_id": 13,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2410,
+    "award_type_id": 13,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2411,
+    "award_type_id": 13,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2203,
+    "award_type_id": 14,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2204,
+    "award_type_id": 14,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2205,
+    "award_type_id": 14,
+    "member_id": null,
+    "record": "225타"
+  },
+  {
+    "meeting_id": 2206,
+    "award_type_id": 14,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2208,
+    "award_type_id": 14,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2209,
+    "award_type_id": 14,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2210,
+    "award_type_id": 14,
+    "member_id": null,
+    "record": "306타"
+  },
+  {
+    "meeting_id": 2211,
+    "award_type_id": 14,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2303,
+    "award_type_id": 14,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2304,
+    "award_type_id": 14,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2305,
+    "award_type_id": 14,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2306,
+    "award_type_id": 14,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2308,
+    "award_type_id": 14,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2310,
+    "award_type_id": 14,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2311,
+    "award_type_id": 14,
+    "member_id": null,
+    "record": "307타"
+  },
+  {
+    "meeting_id": 2403,
+    "award_type_id": 14,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2404,
+    "award_type_id": 14,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2405,
+    "award_type_id": 14,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2406,
+    "award_type_id": 14,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2408,
+    "award_type_id": 14,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2409,
+    "award_type_id": 14,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2410,
+    "award_type_id": 14,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2411,
+    "award_type_id": 14,
+    "member_id": null,
+    "record": "311타"
+  },
+  {
+    "meeting_id": 2203,
+    "award_type_id": 15,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2204,
+    "award_type_id": 15,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2205,
+    "award_type_id": 15,
+    "member_id": null,
+    "record": "233타"
+  },
+  {
+    "meeting_id": 2206,
+    "award_type_id": 15,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2208,
+    "award_type_id": 15,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2209,
+    "award_type_id": 15,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2210,
+    "award_type_id": 15,
+    "member_id": null,
+    "record": "328타"
+  },
+  {
+    "meeting_id": 2211,
+    "award_type_id": 15,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2303,
+    "award_type_id": 15,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2304,
+    "award_type_id": 15,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2305,
+    "award_type_id": 15,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2306,
+    "award_type_id": 15,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2308,
+    "award_type_id": 15,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2310,
+    "award_type_id": 15,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2311,
+    "award_type_id": 15,
+    "member_id": null,
+    "record": "309타"
+  },
+  {
+    "meeting_id": 2403,
+    "award_type_id": 15,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2404,
+    "award_type_id": 15,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2405,
+    "award_type_id": 15,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2406,
+    "award_type_id": 15,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2408,
+    "award_type_id": 15,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2409,
+    "award_type_id": 15,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2410,
+    "award_type_id": 15,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2411,
+    "award_type_id": 15,
+    "member_id": null,
+    "record": "312타"
+  },
+  {
+    "meeting_id": 2203,
+    "award_type_id": 16,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2204,
+    "award_type_id": 16,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2205,
+    "award_type_id": 16,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2206,
+    "award_type_id": 16,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2208,
+    "award_type_id": 16,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2209,
+    "award_type_id": 16,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2210,
+    "award_type_id": 16,
+    "member_id": null,
+    "record": "337타"
+  },
+  {
+    "meeting_id": 2211,
+    "award_type_id": 16,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2303,
+    "award_type_id": 16,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2304,
+    "award_type_id": 16,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2305,
+    "award_type_id": 16,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2306,
+    "award_type_id": 16,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2308,
+    "award_type_id": 16,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2310,
+    "award_type_id": 16,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2311,
+    "award_type_id": 16,
+    "member_id": null,
+    "record": "317타"
+  },
+  {
+    "meeting_id": 2403,
+    "award_type_id": 16,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2404,
+    "award_type_id": 16,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2405,
+    "award_type_id": 16,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2406,
+    "award_type_id": 16,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2408,
+    "award_type_id": 16,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2409,
+    "award_type_id": 16,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2410,
+    "award_type_id": 16,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2411,
+    "award_type_id": 16,
+    "member_id": null,
+    "record": "315타"
+  },
+  {
+    "meeting_id": 2203,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2204,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2205,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2206,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2208,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2209,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2210,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2211,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2303,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2304,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2305,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2306,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2308,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2310,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2311,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2403,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2404,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2405,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2406,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2408,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2409,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2410,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2411,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2203,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2204,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2205,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2206,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2208,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2209,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2210,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2211,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2303,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2304,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2305,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2306,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2308,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2310,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2311,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2403,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2404,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2405,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2406,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2408,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2409,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2410,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2411,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2203,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2204,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2205,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2206,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2208,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2209,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2210,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2211,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2303,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2304,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2305,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2306,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2308,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2310,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2311,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2403,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2404,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2405,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2406,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2408,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2409,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2410,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2411,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2203,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2204,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2205,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2206,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2208,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2209,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2210,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2211,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2303,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2304,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2305,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2306,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2308,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2310,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2311,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2403,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2404,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2405,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2406,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2408,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2409,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2410,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2411,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2203,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2204,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2205,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2206,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2208,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2209,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2210,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2211,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2303,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2304,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2305,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2306,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2308,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2310,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2311,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2403,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2404,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2405,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2406,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2408,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2409,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2410,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2411,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2203,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2204,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2205,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2206,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2208,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2209,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2210,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2211,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2303,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2304,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2305,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2306,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2308,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2310,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2311,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2403,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2404,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2405,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2406,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2408,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2409,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2410,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2411,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2203,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2204,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2205,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2206,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2208,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2209,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2210,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2211,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2303,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2304,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2305,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2306,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2308,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2310,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2311,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2403,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2404,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2405,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2406,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2408,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2409,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2410,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2411,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2203,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2204,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2205,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2206,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2208,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2209,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2210,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2211,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2303,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2304,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2305,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2306,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2308,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2310,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2311,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2403,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2404,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2405,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2406,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2408,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2409,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2410,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2411,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2203,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2204,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2205,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2206,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2208,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2209,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2210,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2211,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2303,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2304,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2305,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2306,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2308,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2310,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2311,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2403,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2404,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2405,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2406,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2408,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2409,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2410,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2411,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2203,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2204,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2205,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2206,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2208,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2209,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2210,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2211,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2303,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2304,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2305,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2306,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2308,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2310,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2311,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2403,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2404,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2405,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2406,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2408,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2409,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2410,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2411,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2203,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2204,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2205,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2206,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2208,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2209,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2210,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2211,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2303,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2304,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2305,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2306,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2308,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2310,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2311,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2403,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2404,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2405,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2406,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2408,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2409,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2410,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  },
+  {
+    "meeting_id": 2411,
+    "award_type_id": 17,
+    "member_id": null,
+    "record": null
+  }
+]
