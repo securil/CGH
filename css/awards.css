@@ -42,7 +42,6 @@
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
-/* 섹션 타이틀 스타일 */
 .section-title {
     text-align: left;
     margin-bottom: 2rem;
@@ -52,6 +51,7 @@
 .section-title h2 {
     font-size: 2rem;
     margin-bottom: 0.5rem;
+    color: #056c47; /* 제목 녹색으로 변경 */
 }
 
 .title-underline {
@@ -61,22 +61,21 @@
     border-radius: 2px;
 }
 
-/* 최근 수상내역 섹션 */
+/* 최근 수상카드 섹션 */
 .recent-awards-section {
     padding: 4rem 0;
     background-color: #f8f9fa;
 }
 
-/* 수정: 그리드를 2x2로 변경 */
+/* 수정: 그리드를 3열로 변경 */
 .awards-cards-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 3열에서 2열로 변경 */
-    gap: 30px;
+    grid-template-columns: repeat(3, 1fr); /* 2열에서 3열로 변경 */
+    gap: 25px; /* 간격 조정 */
     margin-top: 2rem;
 }
 
-
-/* 연도별 수상내역 섹션 */
+/* 연도별 수상카드 섹션 */
 .yearly-awards-section {
     padding: 4rem 0;
     background-color: #fff; /* 밝은 배경색 */
@@ -125,9 +124,21 @@
     color: #fff;
 }
 
+/* 연도별 수상카드 컨테이너 - 최근 수상카드와 동일한 레이아웃 */
+.yearly-awards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 2rem;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #fcfcfc;
+}
+
 /* 수상 카드 스타일 - 높이 증가 */
 .award-card {
-    height: 500px; /* 기존 450px에서 높이 증가 */
+    height: 550px; /* 요청대로 550px로 높이 설정 */
     border-radius: 10px;
     overflow: hidden;
     position: relative;
@@ -149,17 +160,57 @@
     position: relative;
 }
 
+/* 월 표시 라벨 스타일 - 이미지와 같은 스타일 적용 */
 .award-card-month {
     position: absolute;
     top: 20px;
     right: 20px;
-    background-color: #fe2c55;
-    color: #fff;
-    padding: 8px 15px;
-    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-weight: bold;
     z-index: 2;
-    font-size: 0.9rem;
+    font-size: 1rem;
+    color: white;
+    border-radius: 0;
+    line-height: 1.3;
+    text-align: center;
+}
+
+/* 월별 다른 색상 지정 */
+.month-3 {
+    background-color: #4CAF50; /* 3월 - 녹색 */
+}
+
+.month-4 {
+    background-color: #8BC34A; /* 4월 - 연두색 */
+}
+
+.month-5 {
+    background-color: #CDDC39; /* 5월 - 라임색 */
+}
+
+.month-6 {
+    background-color: #FFEB3B; /* 6월 - 노란색 */
+}
+
+.month-8 {
+    background-color: #FFC107; /* 8월 - 황색 */
+}
+
+.month-9 {
+    background-color: #FF9800; /* 9월 - 주황색 */
+}
+
+.month-10 {
+    background-color: #FF5722; /* 10월 - 주황빨간색 */
+}
+
+.month-11 {
+    background-color: #F44336; /* 11월 - 빨간색 */
 }
 
 .award-card-basic-info {
@@ -192,23 +243,33 @@
     color: #f8f8f8;
 }
 
-/* 수정: 상세 정보 카드 최적화 */
+/* 수정: 상세 정보 카드 최적화 - 스크롤바 개선 */
 .award-card-details {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.75));
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.85));
     color: #fff;
-    padding: 1.5rem; /* 패딩 감소 */
+    padding: 2rem;
     opacity: 0;
     transform: translateY(20px);
     transition: all 0.4s ease;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    overflow-y: auto; /* 내용이 많을 경우 스크롤 가능하도록 */
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.3) transparent;
+}
+
+.award-card-details::-webkit-scrollbar {
+    width: 6px;
+}
+
+.award-card-details::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
 }
 
 .award-card:hover .award-card-details {
@@ -218,11 +279,10 @@
 
 .details-title {
     color: #3498db;
-    font-size: 1.3rem; /* 크기 축소 */
-    margin-bottom: 0.8rem; /* 여백 축소 */
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
     position: relative;
     display: inline-block;
-    animation: none; /* 애니메이션 제거 */
 }
 
 .details-title::after {
@@ -236,93 +296,32 @@
     border-radius: 1.5px;
 }
 
-/* 수정: 카테고리 간격 최적화 */
 .award-categories {
     display: flex;
     flex-direction: column;
-    gap: 0.6rem; /* 간격 축소 */
-    margin-bottom: 1rem; /* 여백 축소 */
+    gap: 0.6rem;
+    margin-bottom: 1.5rem;
 }
 
 .award-category {
     display: flex;
     align-items: flex-start;
-    gap: 10px; /* 간격 축소 */
+    gap: 10px;
 }
 
-.award-icon {
-    font-size: 1.5rem;
-    color: gold;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.award-icon.fa-medal {
-    color: silver;
-}
-
-.longest-icon {
-    color: #e67e22;
-}
-
-.nearest-icon {
-    color: #2ecc71;
-}
-
-.award-info h4 {
-    margin: 0 0 0.5rem 0;
-    font-size: 1.1rem;
-}
-
-.award-info p {
-    margin: 0.2rem 0;
-    font-size: 0.9rem;
-}
-
-/* 수정: 텍스트 최적화 */
 .award-category-compact {
     margin: 0;
     font-size: 0.95rem;
-    line-height: 1.1; /* 줄 높이 최적화 */
-    padding: 2px 0;
+    line-height: 1.4;
 }
 
-.award-score {
-    font-weight: bold;
-    color: #f39c12;
-}
-
-.award-location-details, .award-course {
-    margin-top: 0.5rem;
+.award-location-details, .award-participants {
+    margin-top: 0.8rem;
     font-size: 0.9rem;
 }
 
-.award-location-details i, .award-course i {
+.award-location-details i, .award-participants i {
     margin-right: 0.5rem;
-}
-
-/* 상세 보기 모드 카드 */
-.award-card-detailed {
-    height: auto;
-    min-height: 500px;
-    cursor: default;
-}
-
-.award-card-detailed .award-card-details {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-.award-card-detailed .award-card-basic-info {
-    opacity: 0;
-}
-
-.award-card-detailed:hover {
-    transform: none;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 /* 수상 통계 섹션 */
@@ -331,35 +330,171 @@
     background-color: #f8f9fa;
 }
 
-/* 통계 연도 탭 */
-.stats-year-tabs {
+/* 통계 필터 스타일 */
+.stats-filters {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
+    align-items: center;
     margin-bottom: 2rem;
+    gap: 1.5rem;
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
-.stats-year-tab {
-    padding: 0.5rem 1.5rem;
-    background-color: #f1f1f1;
-    border: none;
-    border-radius: 50px;
+.filter-label {
+    font-weight: 600;
+    color: #333;
+    margin-right: 0.5rem;
+}
+
+.year-filter, .gender-filter {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.stats-filter-control {
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 0.9rem;
+}
+
+.radio-group {
+    display: flex;
+    gap: 1rem;
+}
+
+.radio-label {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
     cursor: pointer;
-    font-weight: 500;
-    transition: all 0.3s ease;
 }
 
-.stats-year-tab.active {
-    background-color: #ff0050;
-    color: #fff;
+.radio-text {
+    font-size: 0.9rem;
 }
 
 /* 통계 카드 그리드 */
 .stats-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    gap: 25px;
+}
+
+.stats-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    padding: 0;
+}
+
+.stats-card h3 {
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: #333;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.stats-card h3 i {
+    color: #ff0050;
+}
+
+/* 랭킹 리스트 스타일 */
+.ranking-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ranking-item {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.ranking-item:last-child {
+    border-bottom: none;
+}
+
+.ranking-position {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 0.8rem;
+    flex-shrink: 0;
+}
+
+.ranking-position.top1 {
+    background-color: #FFD700;
+    color: #fff;
+}
+
+.ranking-position.top2 {
+    background-color: #C0C0C0;
+    color: #fff;
+}
+
+.ranking-position.top3 {
+    background-color: #CD7F32;
+    color: #fff;
+}
+
+.ranking-name {
+    flex: 1;
+    font-weight: 500;
+    padding-right: 0.5rem;
+}
+
+.ranking-score {
+    font-weight: bold;
+    color: #3498db;
+    text-align: right;
+    padding-left: 0.5rem;
+    border-left: 1px solid #eee;
+    min-width: 80px;
+}
+
+/* 반응형 조정 */
+@media (max-width: 1100px) {
+    .stats-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .stats-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .stats-filters {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+/* 통계 카드 그리드 - 3열로 설정 */
+.stats-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
 }
 
 .stats-card {
@@ -368,11 +503,16 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     padding: 1.5rem;
     transition: all 0.3s ease;
+    height: auto;
+    overflow: hidden;
+    position: relative;
 }
 
+/* 통계 카드 호버 효과 */
 .stats-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    z-index: 10;
 }
 
 .stats-card h3 {
@@ -393,18 +533,6 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    max-height: 500px;
-    overflow-y: auto;
-    scrollbar-width: thin;
-}
-
-.ranking-list::-webkit-scrollbar {
-    width: 6px;
-}
-
-.ranking-list::-webkit-scrollbar-thumb {
-    background-color: #ccc;
-    border-radius: 3px;
 }
 
 .ranking-item {
@@ -446,13 +574,6 @@
     color: #fff;
 }
 
-.ranking-medal {
-    font-size: 1.2rem;
-    margin-right: 1rem;
-    min-width: 24px;
-    text-align: center;
-}
-
 .ranking-name {
     flex: 1;
     font-weight: 500;
@@ -461,29 +582,6 @@
 .ranking-score {
     font-weight: bold;
     color: #3498db;
-}
-
-/* 반응형 조정 */
-@media (max-width: 1100px) {
-    .stats-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 768px) {
-    .stats-container {
-        grid-template-columns: 1fr;
-    }
-    
-    .stats-year-tabs {
-        overflow-x: auto;
-        justify-content: flex-start;
-        padding-bottom: 10px;
-    }
-    
-    .stats-year-tab {
-        flex: 0 0 auto;
-    }
 }
 
 /* 로딩 및 오류 메시지 */
@@ -532,14 +630,23 @@
 }
 
 /* 반응형 스타일 */
+@media (max-width: 1200px) {
+    .awards-cards-container,
+    .yearly-awards-container,
+    .stats-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media (max-width: 768px) {
     .awards-cards-container,
+    .yearly-awards-container,
     .stats-container {
         grid-template-columns: 1fr;
     }
     
     .award-card {
-        height: 450px; /* 모바일에서는 약간 줄임 */
+        height: 500px; /* 모바일에서는 약간 줄임 */
     }
     
     .awards-hero h2 {
@@ -555,11 +662,16 @@
         overflow-x: auto;
         padding-bottom: 10px;
     }
+    
+    .stats-filters {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
 
 @media (max-width: 480px) {
     .award-card {
-        height: 400px; /* 작은 모바일에서 더 줄임 */
+        height: 450px; /* 작은 모바일에서 더 줄임 */
     }
     
     .award-card-details {
@@ -574,6 +686,7 @@
         font-size: 2rem;
     }
 }
+
 /* 반응형 스크롤 네비게이션 */
 @media (max-width: 768px) {
     .year-selector,

@@ -52,10 +52,10 @@
             </div>
         </section>
 
-        <!-- 최근 3개월 수상내역 섹션 -->
+        <!-- 최근 수상카드 섹션 -->
         <section class="recent-awards-section">
             <div class="section-title">
-                <h2>최근 수상내역</h2>
+                <h2>최근 수상카드</h2>
                 <div class="title-underline"></div>
             </div>
             <div class="awards-cards-container" id="recent-awards-container">
@@ -66,38 +66,16 @@
             </div>
         </section>
 
-        <!-- 연도별 수상내역 섹션 -->
+        <!-- 연도별 수상카드 섹션 -->
         <section class="yearly-awards-section">
             <div class="section-title">
-                <h2>연도별 수상내역</h2>
+                <h2>연도별 수상카드</h2>
                 <div class="title-underline"></div>
             </div>
             <div class="year-selector">
                 <button class="year-btn active" data-year="2024">2024년</button>
                 <button class="year-btn" data-year="2023">2023년</button>
                 <button class="year-btn" data-year="2022">2022년</button>
-            </div>
-            
-            <!-- 2024년 월별 내비게이션 -->
-            <div class="month-navigation" id="month-nav-2024">
-                <button class="month-btn" data-month="3">3월</button>
-                <button class="month-btn" data-month="4">4월</button>
-                <button class="month-btn" data-month="5">5월</button>
-                <button class="month-btn" data-month="6">6월</button>
-                <button class="month-btn" data-month="8">8월</button>
-                <button class="month-btn" data-month="9">9월</button>
-                <button class="month-btn" data-month="10">10월</button>
-                <button class="month-btn" data-month="11">11월</button>
-            </div>
-            
-            <!-- 2023년 월별 내비게이션 (기본적으로 숨김) -->
-            <div class="month-navigation" id="month-nav-2023" style="display: none;">
-                <!-- JS에서 동적으로 로드될 내용 -->
-            </div>
-            
-            <!-- 2022년 월별 내비게이션 (기본적으로 숨김) -->
-            <div class="month-navigation" id="month-nav-2022" style="display: none;">
-                <!-- JS에서 동적으로 로드될 내용 -->
             </div>
             
             <div class="yearly-awards-container" id="yearly-awards-container">
@@ -108,46 +86,225 @@
             </div>
         </section>
 
-        <!-- 수상 통계 섹션 -->
-        <section class="awards-stats-section">
-            <div class="section-title">
-                <h2>수상 통계</h2>
-                <div class="title-underline"></div>
+<!-- 수상 통계 섹션 -->
+<section class="awards-stats-section">
+    <div class="section-title">
+        <h2>수상 통계</h2>
+        <div class="title-underline"></div>
+    </div>
+    
+    <!-- 필터 컨트롤 -->
+    <div class="stats-filters">
+        <div class="year-filter">
+            <span class="filter-label">연도 선택:</span>
+            <select id="stats-year" class="stats-filter-control">
+                <option value="2025">2024년</option>
+                <option value="2024" selected>2023년</option>
+                <option value="2023">2022년</option>
+                <option value="2022">2021년</option>
+                <option value="2021">2020년</option>
+                <option value="2020">2019년</option>
+            </select>
+        </div>
+        
+        <div class="gender-filter">
+            <span class="filter-label">성별 선택:</span>
+            <div class="radio-group">
+                <label class="radio-label">
+                    <input type="radio" name="gender-filter" value="all" checked>
+                    <span class="radio-text">전체</span>
+                </label>
+                <label class="radio-label">
+                    <input type="radio" name="gender-filter" value="male">
+                    <span class="radio-text">남성</span>
+                </label>
+                <label class="radio-label">
+                    <input type="radio" name="gender-filter" value="female">
+                    <span class="radio-text">여성</span>
+                </label>
             </div>
-            
-            <div class="stats-container">
-                <div class="stats-card">
-                    <h3><i class="fas fa-trophy"></i> 베스트 스코어 TOP 3</h3>
-                    <div class="stats-content" id="best-score-stats">
-                        <!-- JS에서 동적으로 로드될 내용 -->
-                        <div class="loading-spinner">
-                            <div class="spinner"></div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="stats-card">
-                    <h3><i class="fas fa-chart-line"></i> 평균 베스트 스코어 TOP 3</h3>
-                    <div class="stats-content" id="avg-best-score-stats">
-                        <!-- JS에서 동적으로 로드될 내용 -->
-                        <div class="loading-spinner">
-                            <div class="spinner"></div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="stats-card">
-                    <h3><i class="fas fa-users"></i> 참석 순위 TOP 3</h3>
-                    <div class="stats-content" id="attendance-stats">
-                        <!-- JS에서 동적으로 로드될 내용 -->
-                        <div class="loading-spinner">
-                            <div class="spinner"></div>
-                        </div>
-                    </div>
-                </div>
+        </div>
+    </div>
+    
+    <div class="stats-container">
+        <div class="stats-card" id="best-score-card">
+            <h3><i class="fas fa-trophy"></i> 베스트 스코어 TOP 10</h3>
+            <div class="stats-content" id="best-score-stats">
+                <!-- 예시 데이터 -->
+                <ul class="ranking-list">
+                    <li class="ranking-item">
+                        <span class="ranking-position top1">1</span>
+                        <span class="ranking-name">27회 최광호</span>
+                        <span class="ranking-score">73타</span>
+                    </li>
+                    <li class="ranking-item">
+                        <span class="ranking-position top2">2</span>
+                        <span class="ranking-name">31회 우종만</span>
+                        <span class="ranking-score">74타</span>
+                    </li>
+                    <li class="ranking-item">
+                        <span class="ranking-position top3">3</span>
+                        <span class="ranking-name">39회 유대곤</span>
+                        <span class="ranking-score">74타</span>
+                    </li>
+                    <li class="ranking-item">
+                        <span class="ranking-position">4</span>
+                        <span class="ranking-name">46회 이영찬</span>
+                        <span class="ranking-score">74타</span>
+                    </li>
+                    <li class="ranking-item">
+                        <span class="ranking-position">5</span>
+                        <span class="ranking-name">30회 박세환</span>
+                        <span class="ranking-score">75타</span>
+                    </li>
+                    <li class="ranking-item">
+                        <span class="ranking-position">6</span>
+                        <span class="ranking-name">34회 장진원</span>
+                        <span class="ranking-score">75타</span>
+                    </li>
+                    <li class="ranking-item">
+                        <span class="ranking-position">7</span>
+                        <span class="ranking-name">36회 박기로</span>
+                        <span class="ranking-score">75타</span>
+                    </li>
+                    <li class="ranking-item">
+                        <span class="ranking-position">8</span>
+                        <span class="ranking-name">27회 최군호</span>
+                        <span class="ranking-score">76타</span>
+                    </li>
+                    <li class="ranking-item">
+                        <span class="ranking-position">9</span>
+                        <span class="ranking-name">33회 최순균</span>
+                        <span class="ranking-score">76타</span>
+                    </li>
+                    <li class="ranking-item">
+                        <span class="ranking-position">10</span>
+                        <span class="ranking-name">47회 상가현</span>
+                        <span class="ranking-score">77타</span>
+                    </li>
+                </ul>
             </div>
-        </section>
-
+        </div>
+        
+        <div class="stats-card" id="avg-best-score-card">
+            <h3><i class="fas fa-chart-line"></i> 평균 베스트 스코어 TOP 10</h3>
+            <div class="stats-content" id="avg-best-score-stats">
+                <!-- 예시 데이터 -->
+                <ul class="ranking-list">
+                    <li class="ranking-item">
+                        <span class="ranking-position top1">1</span>
+                        <span class="ranking-name">27회 최관호</span>
+                        <span class="ranking-score">77타 (8회)</span>
+                    </li>
+                    <li class="ranking-item">
+                        <span class="ranking-position top2">2</span>
+                        <span class="ranking-name">30회 박세환</span>
+                        <span class="ranking-score">77타 (8회)</span>
+                    </li>
+                    <li class="ranking-item">
+                        <span class="ranking-position top3">3</span>
+                        <span class="ranking-name">31회 우종만</span>
+                        <span class="ranking-score">77타 (3회)</span>
+                    </li>
+                    <li class="ranking-item">
+                        <span class="ranking-position">4</span>
+                        <span class="ranking-name">34회 심영복</span>
+                        <span class="ranking-score">77타 (1회)</span>
+                    </li>
+                    <li class="ranking-item">
+                        <span class="ranking-position">5</span>
+                        <span class="ranking-name">34회 장진원</span>
+                        <span class="ranking-score">77타 (4회)</span>
+                    </li>
+                    <li class="ranking-item">
+                        <span class="ranking-position">6</span>
+                        <span class="ranking-name">34회 김문환</span>
+                        <span class="ranking-score">79타 (2회)</span>
+                    </li>
+                    <li class="ranking-item">
+                        <span class="ranking-position">7</span>
+                        <span class="ranking-name">39회 유대곤</span>
+                        <span class="ranking-score">79타 (6회)</span>
+                    </li>
+                    <li class="ranking-item">
+                        <span class="ranking-position">8</span>
+                        <span class="ranking-name">30회 정세걸</span>
+                        <span class="ranking-score">80타 (3회)</span>
+                    </li>
+                    <li class="ranking-item">
+                        <span class="ranking-position">9</span>
+                        <span class="ranking-name">36회 김대규</span>
+                        <span class="ranking-score">81타 (4회)</span>
+                    </li>
+                    <li class="ranking-item">
+                        <span class="ranking-position">10</span>
+                        <span class="ranking-name">41회 홍길동</span>
+                        <span class="ranking-score">82타 (2회)</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="stats-card" id="attendance-card">
+            <h3><i class="fas fa-users"></i> 참석 순위 TOP 10</h3>
+            <div class="stats-content" id="attendance-stats">
+                <!-- 예시 데이터 -->
+                <ul class="ranking-list">
+                    <li class="ranking-item">
+                        <span class="ranking-position top1">1</span>
+                        <span class="ranking-name">27회 최관호</span>
+                        <span class="ranking-score">8회</span>
+                    </li>
+                    <li class="ranking-item">
+                        <span class="ranking-position top2">2</span>
+                        <span class="ranking-name">30회 박세환</span>
+                        <span class="ranking-score">8회</span>
+                    </li>
+                    <li class="ranking-item">
+                        <span class="ranking-position top3">3</span>
+                        <span class="ranking-name">30회 오호진</span>
+                        <span class="ranking-score">8회</span>
+                    </li>
+                    <li class="ranking-item">
+                        <span class="ranking-position">4</span>
+                        <span class="ranking-name">36회 박기로</span>
+                        <span class="ranking-score">8회</span>
+                    </li>
+                    <li class="ranking-item">
+                        <span class="ranking-position">5</span>
+                        <span class="ranking-name">40회 우승준</span>
+                        <span class="ranking-score">8회</span>
+                    </li>
+                    <li class="ranking-item">
+                        <span class="ranking-position">6</span>
+                        <span class="ranking-name">44회 안정화</span>
+                        <span class="ranking-score">8회</span>
+                    </li>
+                    <li class="ranking-item">
+                        <span class="ranking-position">7</span>
+                        <span class="ranking-name">30회 정세걸</span>
+                        <span class="ranking-score">8회</span>
+                    </li>
+                    <li class="ranking-item">
+                        <span class="ranking-position">8</span>
+                        <span class="ranking-name">44회 정동군</span>
+                        <span class="ranking-score">8회</span>
+                    </li>
+                    <li class="ranking-item">
+                        <span class="ranking-position">9</span>
+                        <span class="ranking-name">25회 김수훈</span>
+                        <span class="ranking-score">7회</span>
+                    </li>
+                    <li class="ranking-item">
+                        <span class="ranking-position">10</span>
+                        <span class="ranking-name">29회 이경진</span>
+                        <span class="ranking-score">7회</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
         <!-- 로그인 모달 -->
         <div id="login-modal" class="modal">
             <div class="modal-content">

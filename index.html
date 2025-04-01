@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/components.css">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/schedule-page.css">
+    <link rel="stylesheet" href="css/schedule-card.css">
+    <link rel="stylesheet" href="css/awards.css">
     <!-- responsive.css를 가장 마지막에 로드하여 다른 스타일을 덮어쓰도록 함 -->
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/login-style.css">
@@ -84,38 +87,6 @@
             </div>
         </section>
 
-        <!-- 다가오는 모임 섹션 -->
-        <section class="upcoming-section">
-            <div class="section-title">
-                <h2>다가오는 모임</h2>
-            </div>
-            <div class="upcoming-content" id="upcoming-events">
-                <!-- JS로 데이터 로드 -->
-                <div class="loading-spinner">
-                    <div class="spinner"></div>
-                </div>
-            </div>
-            <div class="section-footer">
-                <a href="schedule.html" class="btn">모든 일정 보기</a>
-            </div>
-        </section>
-
-        <!-- 최근 수상 섹션 -->
-        <section class="recent-awards">
-            <div class="section-title">
-                <h2>최근 수상 내역</h2>
-            </div>
-            <div class="awards-content" id="recent-awards">
-                <!-- JS로 데이터 로드 -->
-                <div class="loading-spinner">
-                    <div class="spinner"></div>
-                </div>
-            </div>
-            <div class="section-footer">
-                <a href="awards.html" class="btn">모든 수상 내역</a>
-            </div>
-        </section>
-
         <!-- 갤러리 하이라이트 섹션 -->
         <section class="gallery-section">
             <div class="section-title">
@@ -148,6 +119,120 @@
                 <a href="#" class="btn">갤러리 더보기</a>
             </div>
         </section>
+
+        <!-- 다가오는 모임 섹션 -->
+<section class="upcoming-section">
+    <div class="section-title">
+        <h2>다가오는 모임</h2>
+    </div>
+    <div class="upcoming-content">
+        <!-- 3월 정기모임 -->
+        <div class="schedule-card">
+            <div class="card-bg" style="background-image: url('assets/img/schedule/3m.jpg')">
+                <div class="date-badge">
+                    <span class="month">MAR</span>
+                    <span class="day">25</span>
+                </div>
+            </div>
+            <div class="card-content">
+                <div class="card-header">
+                    <h3>3월 정기모임</h3>
+                    <span class="event-status completed">완료</span>
+                </div>
+                <div class="card-body">
+                    <div class="event-date">
+                        <i class="fas fa-calendar-day"></i> 2025년 3월 25일 오전 11:00
+                    </div>
+                    <div class="event-location">
+                        <i class="fas fa-map-marker-alt"></i> 뉴스프링빌CC (이천)
+                    </div>
+                    <div class="event-course">
+                        <i class="fas fa-golf-ball"></i> 동불황/알프스, 올림푸스/쿡키
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-outline view-details" data-id="1">상세 정보</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 4월 정기모임 -->
+        <div class="schedule-card">
+            <div class="card-bg" style="background-image: url('assets/img/schedule/4m.jpg')">
+                <div class="date-badge">
+                    <span class="month">APR</span>
+                    <span class="day">22</span>
+                </div>
+            </div>
+            <div class="card-content">
+                <div class="card-header">
+                    <h3>4월 정기모임</h3>
+                    <span class="event-status upcoming">예정</span>
+                </div>
+                <div class="card-body">
+                    <div class="event-date">
+                        <i class="fas fa-calendar-day"></i> 2025년 4월 22일 오전 11:00
+                    </div>
+                    <div class="event-location">
+                        <i class="fas fa-map-marker-alt"></i> 뉴스프링빌CC (이천)
+                    </div>
+                    <div class="event-course">
+                        <i class="fas fa-golf-ball"></i> 동불황/알프스, 올림푸스/쿡키
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-outline view-details" data-id="2">상세 정보</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 5월 정기모임 -->
+        <div class="schedule-card">
+            <div class="card-bg" style="background-image: url('assets/img/schedule/5m.jpg')">
+                <div class="date-badge">
+                    <span class="month">MAY</span>
+                    <span class="day">27</span>
+                </div>
+            </div>
+            <div class="card-content">
+                <div class="card-header">
+                    <h3>5월 정기모임</h3>
+                    <span class="event-status upcoming">예정</span>
+                </div>
+                <div class="card-body">
+                    <div class="event-date">
+                        <i class="fas fa-calendar-day"></i> 2025년 5월 27일 오전 11:00
+                    </div>
+                    <div class="event-location">
+                        <i class="fas fa-map-marker-alt"></i> 뉴스프링빌CC (이천)
+                    </div>
+                    <div class="event-course">
+                        <i class="fas fa-golf-ball"></i> 동불황/알프스, 올림푸스/쿡키
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-outline view-details" data-id="3">상세 정보</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-footer">
+        <a href="schedule.html" class="btn">모든 일정 보기</a>
+    </div>
+</section>
+<!-- 최근 수상 내역 섹션 -->
+<section class="recent-awards-section">
+    <div class="section-title">
+        <h2>최근 수상카드</h2>
+        <div class="title-underline"></div>
+    </div>
+    <div class="awards-cards-container" id="recent-awards-container">
+        <!-- JS에서 동적으로 데이터를 로드할 때 사용할 영역 -->
+        <div class="loading-spinner">
+            <div class="spinner"></div>
+        </div>
+    </div>
+</section>
 
         <!-- 로그인 모달 -->
         <div id="login-modal" class="modal">
@@ -198,5 +283,18 @@
             </div>
         </footer>
     </div>
+    <script>
+        // 상세 정보 버튼 이벤트 리스너 추가
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('.view-details').forEach(button => {
+                button.addEventListener('click', function() {
+                    // 모임 일정 페이지로 이동하는 기능
+                    window.location.href = 'schedule.html';
+                });
+            });
+        });
+    </script>
+    <script src="js/awards.js" defer></script>
+
 </body>
 </html>

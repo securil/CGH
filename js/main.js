@@ -145,8 +145,8 @@ const App = {
     
     // 홈페이지 초기화
     initHomePage() {
-        // 다가오는 모임 데이터 로드
-        this.loadUpcomingEvents();
+        // 다가오는 모임 데이터는 HTML에 직접 작성되어 있으므로 로드하지 않음
+        // this.loadUpcomingEvents();
         
         // 최근 수상 내역 로드
         this.loadRecentAwards();
@@ -172,100 +172,7 @@ const App = {
         this.loadAdminDashboard();
     },
     
-    // 다가오는 모임 데이터 로드
-    loadUpcomingEvents() {
-        const eventsContainer = document.getElementById('upcoming-events');
-        if (!eventsContainer) return;
-        
-        // 데이터 가져오기 (실제로는 fetch API를 사용하여 JSON 파일을 가져옴)
-        this.fetchData('meetings.json')
-            .then(data => {
-                // 현재 날짜 이후의 이벤트만 필터링
-                const now = new Date();
-                const upcomingEvents = data
-                    .filter(event => new Date(event.date) >= now)
-                    .sort((a, b) => new Date(a.date) - new Date(b.date))
-                    .slice(0, 3); // 최대 3개만 표시
-                
-                if (upcomingEvents.length === 0) {
-                    eventsContainer.innerHTML = '<p class="no-data">예정된 모임이 없습니다.</p>';
-                    return;
-                }
-                
-                // HTML 생성
-                eventsContainer.innerHTML = upcomingEvents.map(event => `
-                    <div class="event-card">
-                        <div class="event-image" style="background-image: url('/api/placeholder/300/200')"></div>
-                        <div class="event-details">
-                            <div class="event-date">
-                                <i class="fas fa-calendar"></i> ${this.formatDate(event.date)}
-                            </div>
-                            <h3 class="event-title">${event.title}</h3>
-                            <div class="event-location">
-                                <i class="fas fa-map-marker-alt"></i> ${event.location}
-                            </div>
-                            <p>${event.description.substring(0, 100)}${event.description.length > 100 ? '...' : ''}</p>
-                        </div>
-                    </div>
-                `).join('');
-            })
-            .catch(error => {
-                console.error('모임 데이터 로드 실패:', error);
-                eventsContainer.innerHTML = '<p class="error">데이터를 불러오는데 실패했습니다.</p>';
-            });
-    },
-    
-    // 최근 수상 내역 로드
-    loadRecentAwards() {
-        const awardsContainer = document.getElementById('recent-awards');
-        if (!awardsContainer) return;
-        
-        // 데이터 가져오기 (실제로는 fetch API를 사용하여 JSON 파일을 가져옴)
-        Promise.all([
-            this.fetchData('award_result.json'),
-            this.fetchData('members.json')
-        ])
-            .then(([awards, members]) => {
-                // 최근 수상 내역 3개 선택
-                const recentAwards = awards
-                    .sort((a, b) => new Date(b.date) - new Date(a.date))
-                    .slice(0, 3);
-                
-                if (recentAwards.length === 0) {
-                    awardsContainer.innerHTML = '<p class="no-data">수상 내역이 없습니다.</p>';
-                    return;
-                }
-                
-                // HTML 생성
-                awardsContainer.innerHTML = recentAwards.map(award => {
-                    // 수상자 정보 찾기
-                    const winner = members.find(member => member.id === award.winnerId) || { name: '알 수 없음' };
-                    
-                    return `
-                        <div class="award-card">
-                            <h3 class="award-title">${award.title}</h3>
-                            <div class="award-details">
-                                <p><strong>대회일:</strong> ${this.formatDate(award.date)}</p>
-                                <p><strong>장소:</strong> ${award.location}</p>
-                            </div>
-                            <div class="award-winner">
-                                <div class="winner-avatar">${winner.name.charAt(0)}</div>
-                                <div class="winner-info">
-                                    <p class="winner-name">${winner.name}</p>
-                                    <p>${award.score ? `스코어: ${award.score}` : ''}</p>
-                                </div>
-                            </div>
-                        </div>
-                    `;
-                }).join('');
-            })
-            .catch(error => {
-                console.error('수상 내역 로드 실패:', error);
-                awardsContainer.innerHTML = '<p class="error">데이터를 불러오는데 실패했습니다.</p>';
-            });
-    },
-    
-    // 모든 모임 일정 로드 (schedule.html 페이지에서 사용)
+          // 모든 모임 일정 로드 (schedule.html 페이지에서 사용)
     loadAllEvents() {
         // schedule.html 구현 시 작성
     },

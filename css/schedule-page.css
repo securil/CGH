@@ -478,3 +478,9 @@
     border-radius: 4px;
     margin: 20px 0;
 }
+.upcoming-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
